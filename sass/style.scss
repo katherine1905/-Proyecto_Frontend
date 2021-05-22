@@ -1,0 +1,318 @@
+//VARIABLES
+$light-green: #E6E6FA;
+$claro:#E0E0E0;
+$black: #413d4b;
+$gray: #b5b5b6;
+$light-purple: #9a93ad;
+$color-m:#A89EE3;
+$p:#BA55D3;//color tentatio para el cuadro del medio
+$grayC:#FAFAFA;
+$white:#FFFF;
+$pink:#F8BBD0;
+$purple:#8E24AA;
+$morado:#9932cc;
+$text:#3998db;
+$contact:#87CEEB;
+
+body{
+    width: 90%;
+    height: 100%;
+    background-color:$claro;
+  
+}
+#menu ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+
+}
+
+#menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+
+float: left;
+
+}
+
+#menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+
+color: $white;
+text-decoration: none;
+display: block;
+padding: 12px 12px;
+margin: 15px -437px 50px 511px ;
+
+}
+
+#menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
+background: $pink;
+width: 1372px;
+height: 70px;
+
+}
+//.barra{ //<li class="barra">/</li>
+
+//color:$light-purple;
+
+//margin: 27px -463px 83px 457px ;
+//}
+
+#menu a:hover{// parte para hacer el cuadro sombreado cuando se pone el puntero
+
+color: $purple;
+background: rgba(128, 0, 128, 0.1);
+height: -55px;
+
+}
+
+
+.search{//ESTO ES PARA LA BARRA DE BUSCAR 
+
+    //position: absolute; 
+    padding: 4px 0px 0px 1091px ;
+    margin: -52px;
+}
+
+.search input{// TEXTO QUE IRIA ADENTRO DE BARRA DE BUSCAR
+
+    width:238px ;
+    height: 30px ;
+    padding: 0 20px 0px 17px ;
+    margin:1px ;
+    font-size: 16px;
+    color: $light-purple;
+    outline: none;
+    border: 1px solid $morado;
+    border-radius: 38px;
+}
+
+.btn{//ESTO ES PARA EL ICONO DE BUSCAR
+    position: absolute;
+    top: 19px;
+    right: 69px;
+    background:$morado ;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: $grayC;
+    font: size 20px; ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header{ //ESTO ES PARA LA FOTO DEL HEADER
+position: absolute;
+    width: 102%;
+    height: 300px;
+    margin-left: -581px;
+    margin-top: 68px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    }
+
+.container{//ESTO ES PARA EL CONTAINER DE LAS IMAGENES
+
+width: 100%;
+max-width:1200px ;
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 424px  92px;
+
+}
+.container-E{//ESTO ES PARA EL CONTAINER DE LAS OTRAS IMGS 2
+    position: absolute;
+    top: 830PX;
+    right: -41px;
+    width: 100%;
+max-width:1200px ;
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 455px  92px;
+
+}
+
+
+.container .card{// ESTO ES PARA ALINEAR LOS TEXTOS QUE ESTA EN EL CONTAINER
+width: 330px;
+height: 390px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+overflow: hidden;
+margin: 31px;
+text-align: center;
+transition: all 0.25;
+
+}
+
+.container-E .card-E{// ESTO ES PARA ALINEAR LOS TEXTOS QUE ESTA EN EL CONTAINER
+    width: 330px;
+    height: 258px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 31px;
+    text-align: center;
+    transition: all 0.25;
+    
+    }
+
+.container .card:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS IMG
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.container .card img{// ESTO ES PARA DEFINIR EL TAMAÑO DE LAS IMG
+
+width: 330px;
+height: 220px;
+
+}
+
+.container-E .card-E:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS OTRAS IMG2
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.container-E .card-E img{// ESTO ES PARA DEFINIR EL TAMAÑO DE LAS OTRAS IMGS2
+
+width: 330px;
+height: 220px;
+
+}
+
+.container.card h4{//ESTO ES PARA EL TITULO QUE ESTA DENTRO DE LAS IMAGENES
+
+    font-weight: 600;
+
+}
+
+.container .card p{//ESTO ES PARA EL TEXTO QUE ESTA DENTRO DE LAS IMG
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+padding: 0 1rem;
+font-size: 16px;
+
+
+}
+
+.container .card a{//ESTO ES PARA LA PARTE DE LEARN MORE DE LAS IMG
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+text-decoration: none;
+color: $text;
+
+
+}
+
+.container .title{//ESTO ES PARA EL TITLO DE EENTO
+    position: absolute;
+    top: 385px;
+   // right: 0px;
+color: $black;
+text-align: center;
+font-size: 40px;
+
+}
+
+.especifico{//ESTO ES PARA LA IMAGEN DE OTRO EENTO ESPECIFICO
+position: absolute;
+top: 943px;
+right: 641px;
+    width: 38%;
+    height: 44%;
+}
+.text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO
+position: absolute;
+//top: 0px;
+//right: 0px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;   
+padding: 0 1rem;
+font-size: 19px;    
+margin: -310px 114px 64px 778px;
+
+
+}
+.cuadro{// ESTE EL CUADRO DE EL MEDIO COLOR QUE ESTA DEAJO DE LOS EENTOS
+    position: absolute;
+    background: $color-m;
+width: 102%;
+height: 58%;
+
+margin: -380px 114px 64px 0px;
+
+}
+
+.cuadro-F{// ESTE EL CUADRO FINAL DE CONTACT DE COLOR QUE ESTA DEAJO DE LOS EENTOS
+    position: absolute;
+width: 102%;
+height: 23%;
+background: $contact;
+margin: 362px 114px 64px 0px;
+
+}
+
+.icons{// ESTO ES PARA LOS ICONS FINALES DE CONTACT
+
+    position: absolute;
+    right: 0px;
+    width: 9%;
+    height: 69px;
+    margin: 362px 114px 64px 0px;
+    
+
+}
+.text-C{//ESTO ES PARA EL SEGUNDO TEXTO DEL CONTACT
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;   
+    padding: 1rem 31rem;
+    font-size: 14px;    
+position: absolute;
+//top: 1500px;
+right: 160px;
+    margin: 410px -116px 48px 67px;
+color: $grayC;
+text-align: center;
+
+}
+.text-Co{//ESTO ES PARA EL PRIMER TEXTO DEL CONTACT
+font-family: 'Roboto', sans-serif;
+font-weight: 300;   
+padding: 0rem 44rem;
+font-size: 14px;    
+position: absolute;
+right: 240px;
+margin: 429px -94px 81px -442px;
+color: $grayC;
+text-align: center;
+}
+.text-Contact{//ESTO ES PARA EL PRIMER TEXTO DEL CONTACT
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;   
+    padding: 0rem 1rem;
+    font-size: 14px;    
+    position: absolute;
+    right: 268px;
+    margin: 444px -252px 59px -231px;
+    color: $grayC;
+    text-align: center;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+.e-h1{//ESTO ES PARA LA PAGINA DE EENTO DETALLE 
+
+    font-family: 'Arial', serif;
+    font-weight: 55;
+    background-color:$light-green ;
+
+
+}
+
