@@ -69,7 +69,7 @@ height: -55px;
 .search{//ESTO ES PARA LA BARRA DE BUSCAR 
 
     //position: absolute; 
-    padding: 4px 0px 0px 1091px ;
+    padding: 4px 0px 0px 1125px ;
     margin: -52px;
 }
 
@@ -89,7 +89,7 @@ height: -55px;
 .btn{//ESTO ES PARA EL ICONO DE BUSCAR
     position: absolute;
     top: 19px;
-    right: 69px;
+    right: 36px;
     background:$morado ;
     width: 36px;
     height: 36px;
@@ -105,7 +105,7 @@ height: -55px;
 position: absolute;
     width: 102%;
     height: 300px;
-    margin-left: -581px;
+    margin-left: -604px;
     margin-top: 68px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -306,13 +306,117 @@ text-align: center;
     color: $grayC;
     text-align: center;
     }
+
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-.e-h1{//ESTO ES PARA LA PAGINA DE EENTO DETALLE 
 
-    font-family: 'Arial', serif;
-    font-weight: 55;
-    background-color:$light-green ;
-
-
+.registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+    width: 90%;
+    height: 100%;
+    background-color:$morado;
+  
 }
 
+
+.form{//ESTO ES PARA EL FORMULARIO EN CONJUNTO
+    position: absolute;
+    top: -34px;
+    right: 231px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    
+    color:$white;
+    padding: 5px;
+   
+   
+
+}
+.submit-btn3{//ESTO ES PARA EL BOTON DE COMPRAR
+    width:238px ;
+    height: 30px ;
+    padding: 8px 13px 33px ;
+   
+    font-size: 16px;
+    color: $white;
+    
+    position: absolute;
+    top: 448px;
+    right: 286px;
+}
+
+
+   .ticket{// ESTO ES PARA EL TITLO DE COMPRA TICKECTS
+    color: $white;
+    position: absolute;
+    top: 109px;
+    right: 483px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+
+   }
+
+   .input-group{
+
+    color: $text;
+   }
+   .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+color: $black;
+    width:238px ;
+    height: 30px ;
+    padding: 20px 26px 28px ;
+    margin:79px 21px 23px 1px ;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid $white;
+    border-radius: 38px;
+    //background-color: transparent;
+}
+.input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+    color:$white;
+    position: absolute;
+    width:238px ;
+    height: 30px ;
+    top: 290px;
+    right: 268px;
+}
+.nombre-e{//ESTO ES PARA EL TEXTO NOMBRE EENTO
+position: absolute;
+top: 206px;
+left: 375px;
+color: $white;
+font-size: 21px;
+}
+.nombre-f{//ESTO ES PARA EL TEXTO FECHA
+
+    position: absolute;
+    top: 267px;
+    left: 375px;
+    color: $white;
+    font-size: 21px;
+}
+.nombre-l{
+
+    position: absolute;
+    top: 206px;
+    right: 375px;
+    color: $white;
+    font-size: 21px;
+}
+.nombre-h{
+
+    position: absolute;
+    top: 267px;
+    right: 375px;
+    color: $white;
+    font-size: 21px;
+
+}
