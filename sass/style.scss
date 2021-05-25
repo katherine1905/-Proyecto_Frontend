@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+   }
 //VARIABLES
 $light-green: #E6E6FA;
 $claro:#E0E0E0;
@@ -13,19 +19,160 @@ $purple:#8E24AA;
 $morado:#9932cc;
 $text:#3998db;
 $contact:#87CEEB;
+.contenedor{
+width: 113%;
 
+margin: 0 auto;
+overflow: hidden;
+
+}
+/////////////ACA IRIA LO DEL HEADER EN MOIMIENTO
+.container-header{
+    margin-top: -26px;
+width: 114%;
+height: 300px;
+position: relative;
+background-image: url(../imgs/header.jpg);
+background-size: 200%;
+animation: movimiento 14s  infinite linear alternate;
+
+}
+
+@keyframes movimiento{
+
+    from{
+background-position: bottom left;
+    }to{
+background-position: top right ;
+    }
+}
+/*.capa-desgradado{
+width: 114%;
+height: 100%;
+position: absolute;
+background: linear-gradient(left, black,$white);
+opacity: 0.5;
+
+}*/
+
+.container-detalles{
+width: 100%;
+max-width: 1200px;
+position: relative;
+margin: auto;
+}
+.details{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: -10px;
+    color: $white;
+}
+.details h1{
+    font-size: 30px;
+}
+.details button{
+padding: 10px 20px;
+font-size: 16px;
+background: none;
+border-style: none;
+border: 1px solid white;
+color: white;
+margin-top: 5px;
+transition: background 300ms;
+cursor: pointer;
+
+
+}
+.disfruta button{
+
+    padding: 1px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border-style: none;
+    //border: 1px solid $purple;
+    color:$black;
+    margin-top: 4px;
+    transition: background 500ms;
+    cursor: pointer;
+    
+}
+.disfruta button:hover{
+    background: $contact;
+    color: $morado;
+    
+    }
+.details button:hover{
+background: $pink;
+color: $morado;
+
+}
+//////////////////////////////////////////////////////////////////////ACA TERMINA LA PARTE DE HEADER
 body{
     width: 90%;
     height: 100%;
     background-color:$claro;
   
 }
+/////////////////////////////////////////////////////////////////////////
+
+.btn-outline-success:active {
+    color: #fff;
+    background-color:$p;
+    border-color:$p;
+}
+
+.btn-outline-success {
+    color: $p;
+    border-color: $p;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:$p; 
+     border-color:$p; 
+}
+///////////////////////////////////////////////////////////////
+
+
+
+.bg-light {
+    background-color: #f8f9fa;
+    opacity: 10;
+}
+
+.form-control {
+    margin-top: -63px;
+    margin-left: 455px;
+    display: block;
+    width: 27%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 40;
+    line-height: 0.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+////////////////////////////////////////////////////////////////////////
 #menu ul{
 list-style: none;
 margin: 0;
 padding: 0;
+}
 
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {//ESTO ES PARA LO TITULO DEL NOMBRE DEL EENTO
+    margin-top: 10px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
@@ -35,27 +182,22 @@ float: left;
 }
 
 #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
-
+font-weight: 500;
 color: $purple;
 text-decoration: none;
 display: block;
-padding: 12px 12px;
-margin: 15px -437px 50px 511px ;
+padding: 17px 9px;
+margin: 1px -417px 71px 478px ;
 
 }
 
 #menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
 background: $pink;
-width: 1372px;
+width: 1385px;
 height: 70px;
 
 }
-//.barra{ //<li class="barra">/</li>
 
-//color:$light-purple;
-
-//margin: 27px -463px 83px 457px ;
-//}
 
 #menu a:hover{// parte para hacer el cuadro sombreado cuando se pone el puntero
 
@@ -85,32 +227,83 @@ height: -55px;
     border: 1px solid $morado;
     border-radius: 38px;
 }
-
-.btn{//ESTO ES PARA EL ICONO DE BUSCAR
+//////////////////////////////////////////////////////////////////////////////////////////////
+.btn{//ESTO ES PARA EL ICONO DE BUSCAR LA PRINCIPAL
     position: absolute;
-    top: 19px;
-    right: 36px;
+    top: -55px;
+    right: -53px;
     background:$morado ;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
+    width: 91px;
+    height: 35px;
+   // line-height: 36px;
     text-align: center;
     color: $grayC;
     font: size 20px; ;
-    border-radius: 50%;
+    border-radius: 0%;
     cursor: pointer;
 }
-
+.btn-E {//ESTA ES PARA EL ICONO DE BUSCAR DE EENTO
+    position: absolute;
+    top: -55px;
+    right: 54px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-Registro {//ESTA ES PARA EL ICONO DE BUSCAR DE REGISTRO
+    position: absolute;
+    top: -55px;
+    right: -64px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-Confirmar {
+    position: absolute;
+    top: -55px;
+    right: -66px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-Resumen {
+    position: absolute;
+    top: -55px;
+    right: -69px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
 .header{ //ESTO ES PARA LA FOTO DEL HEADER
 position: absolute;
-    width: 102%;
-    height: 300px;
+    width: 108%;
+    height: 283px;
     margin-left: -625px;
-    margin-top: 68px;
+    margin-top: -16px;
     margin-right: 0px;
     margin-bottom: 0px;
     }
-
 .container{//ESTO ES PARA EL CONTAINER DE LAS IMAGENES
 
 width: 100%;
@@ -119,12 +312,12 @@ height: 430px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin: 424px  92px;
+margin: 72px 110px;
 
 }
 .container-E{//ESTO ES PARA EL CONTAINER DE LAS OTRAS IMGS 2
     position: absolute;
-    top: 830PX;
+    top: 862PX;
     right: -41px;
     width: 100%;
 max-width:1200px ;
@@ -198,7 +391,7 @@ top: 0px;
 
 .container .card p{//ESTO ES PARA EL TEXTO QUE ESTA DENTRO DE LAS IMG
 font-family: 'Roboto', sans-serif;
-font-weight: 300;
+font-weight: 500;
 padding: 0 1rem;
 font-size: 16px;
 
@@ -207,19 +400,19 @@ font-size: 16px;
 
 .container .card a{//ESTO ES PARA LA PARTE DE  INGRESAR DE LAS IMG
 font-family: 'Roboto', sans-serif;
-font-weight: 600;
+font-weight: 1000;
 text-decoration: none;
-color: $color-m;
+color:#BA68C8;
 
 
 }
 
 .container .title{//ESTO ES PARA EL TITLO DE EENTO
     position: absolute;
-    top: 385px;
-   // right: 0px;
+    top: 376px;
+    right: 575px;
 color: $black;
-text-align: center;
+
 font-size: 40px;
 
 }
@@ -232,14 +425,17 @@ right: 641px;
     height: 44%;
 }
 .text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO
-position: absolute;
+
+    position: absolute;
+    
 //top: 0px;
 //right: 0px;
 font-family: 'Roboto', sans-serif;
-font-weight: 300;   
+font-weight: 400;   
 padding: 0 1rem;
 font-size: 19px;    
-margin: -310px 114px 64px 778px;
+margin: 31px 114px 64px 778px;
+color: $white;
 
 
 }
@@ -249,7 +445,7 @@ margin: -310px 114px 64px 778px;
 width: 102%;
 height: 58%;
 
-margin: -380px 114px 64px 0px;
+margin: -33px 114px 64px 0px;
 
 }
 
@@ -258,7 +454,7 @@ margin: -380px 114px 64px 0px;
 width: 102%;
 height: 23%;
 background: $contact;
-margin: 362px 114px 64px 0px;
+margin: 702px 114px 64px 0px;
 
 }
 
@@ -280,7 +476,7 @@ margin: 362px 114px 64px 0px;
 position: absolute;
 //top: 1500px;
 right: 160px;
-    margin: 410px -116px 48px 67px;
+    margin: 710px -116px 48px 67px;
 color: $grayC;
 text-align: center;
 
@@ -292,7 +488,7 @@ padding: 0rem 44rem;
 font-size: 14px;    
 position: absolute;
 right: 240px;
-margin: 429px -94px 81px -442px;
+margin: 727px -94px 81px -442px;
 color: $grayC;
 text-align: center;
 }
@@ -303,7 +499,7 @@ text-align: center;
     font-size: 14px;    
     position: absolute;
     right: 268px;
-    margin: 444px -252px 59px -231px;
+    margin: 744px -252px 59px -231px;
     color: $grayC;
     text-align: center;
     }
@@ -320,9 +516,9 @@ text-align: center;
     background-color:$p;
   
 }
+//////////////////////////////////////////////////////////////
 
-
-.form{//ESTO ES PARA EL FORMULARIO EN CONJUNTO
+.form{//ESTO ES PARA EL FORMULARIO  EN CONJUNTO principal
     position: absolute;
     top: -100px;
     right: 231px;
@@ -339,25 +535,82 @@ text-align: center;
    
    
 
-}
-.submit-btn3{//ESTO ES PARA EL BOTON DE COMPRAR
-    width:238px ;
-    height: 30px ;
-    padding: 8px 13px 33px ;
-   
-    font-size: 16px;
-    color: $white;
-    
+} 
+.form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
     position: absolute;
-    top: 448px;
-    right: 286px;
+    top: -37px;
+    right: 231px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
 }
+
+.form-Resumen {//Esto es para el formulario de resumen
+    position: absolute;
+    top: -32px;
+    right: 209px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
+}
+.form-Confirmar {
+    position: absolute;
+    top: -140px;
+    right: 231px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.input-group .btn-Registro {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-Registro2-primary {
+    color: #fff;
+    background-color:$p;
+    border-color:$p;
+}
+.btn-Registro2 {
+    position: absolute;
+    top: 472px;
+    right: 355px;
+    background: $purple ;
+    width: 9vw;
+    height: 2vw;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 
    .ticket{// ESTO ES PARA EL TITLO DE COMPRA TICKECTS
     color: $white;
     position: absolute;
-    top: 109px;
+    top: 122px;
     right: 483px;
     font-size: 2rem;
     font-weight: bold;
@@ -380,9 +633,10 @@ color: $black;
     font-size: 16px;
     outline: none;
     border: 1px solid $white;
-    border-radius: 38px;
+    border-radius: 8px;
     //background-color: transparent;
 }
+
 .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
     color:$white;
     position: absolute;
@@ -470,9 +724,22 @@ font-size: 21px;
     padding: 0rem 1rem;
     font-size: 25px;    
     position: absolute;
-    right: 586px;
-    //top: 220px;
+    right: 326px;
+    top: 731px;
     color: $black;
+    text-align: center;
+
+}
+.proximos-Eventos{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
+
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    padding: 0rem 1rem;
+    font-size: 31px;
+    position: absolute;
+    right: 508px;
+    top: 838px;
+    color: #413d4b;
     text-align: center;
 
 }
@@ -571,9 +838,10 @@ transition: all 300ms;
                 transition: all 300ms;
                 //opacity: 0.8;
             }
+            ///////////////////////////////////////////////////////////////////////////////////////////////
            .container-detalle {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
                 position: absolute;
-                top: 453PX;
+                top: 435PX;
                 right: -41px;
                 width: 100%;
                 max-width: 1200px;
@@ -582,6 +850,8 @@ transition: all 300ms;
                 flex-wrap: wrap;
                 justify-content: center;
                 margin: 455px 92px;
+                transform: scale(1);
+                
             } 
 
             .container-detalle .card-E {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
@@ -598,8 +868,15 @@ transition: all 300ms;
     width: 330px;
     height: 220px;
             }
+            .container-detalle .card-E:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS OTRAS IMG2
 
-            .text-detalle{//ESTO ES PARA EL CONTENEDOR QUE CONTIENE LA DESCRIPCION Y TEXTO
+                transform: translateY(-15px);
+                box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+            
+            }
+            ////////////////////////////////////////////////////////////////////////////////////////////
+
+            .text-detalle{//ESTO ES PARA EL CONTENEDOR QUE CONTIENE LA DESCRIPCION Y TEXTO ennto
 
           position: absolute;
           top: 0;
@@ -641,4 +918,48 @@ transition: all 300ms;
             transform: scale(1);
 
         }
-        ////////////////////////////////////////////////////////////////////
+
+        .container-cuadro-Evento{
+            position: absolute;
+    width: 102%;
+    height: 20%;
+    background: #FFCC80;
+    margin: 577px 114px 64px -1072px;
+        }
+    .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
+
+        background:$black;
+
+
+    }
+
+    .link--1{
+        text-decoration: none;
+height: 56px;
+width: 164px;
+//display: grid;
+//place-items: center;
+
+&-b-tr,
+&-b-b1{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+
+&::before,
+&::after{
+
+    content: '';
+    position: absolute;
+background-color: $morado;
+transition: all 400ms ease-in-out;
+}
+}
+
+&:hover{
+    color: $morado;
+}
+
+    }

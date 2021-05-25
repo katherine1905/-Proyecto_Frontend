@@ -18,10 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
-
 </head>
 <body>
-
+ 
+<div class="contenedor-fluid">
+  
+  <div class="contenedor-fluid">
     <nav id="menu"> 
     
     <ul> 
@@ -31,17 +33,35 @@
       <li> <a href="#">Contacto</a></li>
     </ul>
     </nav>
- 
-    <div class=" search">
-<input type="text" placeholder="search" required>
 
-<div class="btn">
-  <i class="fas fa-search icon"></i>
+
+  <nav class="navbar navbar-light">
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+  
+  <div class="container-header" >
+<div class="capa-desgradado"></div>
+<div class="container-detalles">
+<div class="details">
+  <h1>Header</h1>
+  <p>
+    Esta pagina te ayudara a encontrar los mejores eentos para disfrutar en familia 
+    amigos, o con la persona que tu quieras, naega con nosotros y descubre los mejores conciertos
+    Festivales, obras teatro que estaremos brindadno a traes de nuestra pagina entra ya y no 
+    te lo pierdas por nada del mundo Supertickest.com
+  </p>
+  <button> Visítanos </button>
+</div>
+
 
 </div>
 
-    </div>
-<img   class="header" src="./imgs/header.jpg" alt="header">
+
+  </div>
+
 
 <div class="container">
 <h4 class="title">Eventos</h4>
@@ -75,7 +95,8 @@
 
 
 </div>
-<img class="cuadro" alt="" >
+<div class="cuadro"></div>
+
   <img  class="especifico" src="./imgs/teatro3.jpg" alt="especifico">
   <h4 class="text-E">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
     sed quia nonnumquam eiusmodi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
@@ -84,27 +105,39 @@
     Quis autem vel eum iure reprehenderit qui in ea 
     voluptate velit esse quam nihil molestiae consequatur, vel ilium qui
     dolorem eum fugiat quo voluptas nulla pariatur?</h4>
-
+  
 
 <div class="container-E">
   <div class="card-E">
     <img src="./imgs/torneo.jpg" alt="torneo" >
-    <h4>No te lo pierdas!</h4>
+    <div class="disfruta">
+
+      <button > No te lo pierdas </button>
+    </div>
   </div>
   <div class="card-E">
     <img src="./imgs/teatro4.jpg" alt="teatro4">
-    <h4>No te lo pierdas!</h4>
+    <div class="disfruta">
+
+      <button > No te lo pierdas </button>
+    </div>
   </div>
   <div class="card-E">
     <img src="./imgs/concierto.jpg" alt="concierto">
-    <h4>No te lo pierdas!</h4>
+    
+    
+    <div class="disfruta">
+
+      <button > No te lo pierdas </button>
+    </div>
+   
     
   </div>
 </div>
 
+<h2 class="text-Proximos-E">Próximos Eventos </h2>
+<div class="cuadro-F"></div>
 
-
-<img class="cuadro-F" alt="">
 
 
 <p class="text-C">direcionc 175 metros este 
@@ -115,6 +148,6 @@
       del banco nacional en santa cruz, guanacaste</p>
 <img class="icons" src="./imgs/icons.png"alt="icons"  >
 
-
+</div>
 </body>
 </html>
