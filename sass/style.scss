@@ -26,9 +26,99 @@ margin: 0 auto;
 overflow: hidden;
 
 }
+.logo{//ESTO ES PARA EL LOGO DE SUPERTICKETS
+
+    margin-top: -130px;
+    margin-left: -458px;
+}
+//////////////////////////////////////////////////////////////////////////////////
+footer{ //ESTO ES PARA LA PARTE DE FOOTER DE ABAJO
+position: absolute;
+margin-top: 265px;
+left: 0;
+right: 0;
+    background:rgba(#9370DB, 0.7) ;
+    width: 101vw;
+    height: 14vw;
+    padding-top: -12px;
+color: $white;
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;   
+}
+.footer-content{
+    height: 201px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+}
+.footer-content h3{
+    margin-top: 58px;
+    font-size: 29px;
+    font-weight: 400;
+     text-transform: capitalize;
+    line-height: 1rem;
+
+}
+.footer-content p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+}
+.socials{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+ margin: 0 10px;
+}
+.socials a{
+
+    text-decoration: none;
+    color: $white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+color: $p;
+
+}
+.footer-bottom{//ESTO ES PARA LA BARRA ULTIMA DEL COPY
+background: rgba(#DDA0DD, 9);
+width: 101vw;
+padding: 20px 0;
+text-align: center;
+height: 4vw;
+margin-top: -14px;
+}
+.footer-bottom p{//ESTO ES PARA LO DEL COPY
+font-size: 12px;
+word-spacing: 2px;
+text-transform: capitalize;
+font-weight: 500;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 500;
+
+}
+
+//////////////////////////////////////////////////////////////////HASTA TERMINA EL FOOTER
+
+
 /////////////ACA IRIA LO DEL HEADER EN MOIMIENTO
 .container-header{
-    margin-top: -26px;
+    margin-top: -50px;
 width: 114%;
 height: 300px;
 position: relative;
@@ -46,14 +136,7 @@ background-position: bottom left;
 background-position: top right ;
     }
 }
-/*.capa-desgradado{
-width: 114%;
-height: 100%;
-position: absolute;
-background: linear-gradient(left, black,$white);
-opacity: 0.5;
 
-}*/
 
 .container-detalles{
 width: 100%;
@@ -295,7 +378,7 @@ height: -55px;
     cursor: pointer;
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
-.header{ //ESTO ES PARA LA FOTO DEL HEADER
+/*.header{ //ESTO ES PARA LA FOTO DEL HEADER
 position: absolute;
     width: 108%;
     height: 283px;
@@ -303,7 +386,7 @@ position: absolute;
     margin-top: -16px;
     margin-right: 0px;
     margin-bottom: 0px;
-    }
+    }*/
 .container{//ESTO ES PARA EL CONTAINER DE LAS IMAGENES
 
 width: 100%;
@@ -315,9 +398,10 @@ justify-content: center;
 margin: 72px 110px;
 
 }
+//////////////////////////////////////////////////////////////////////CONTAINER IMAGS 2 DE LA PAGINA PRINCIPAL
 .container-E{//ESTO ES PARA EL CONTAINER DE LAS OTRAS IMGS 2
     position: absolute;
-    top: 862PX;
+    top: 913PX;
     right: -41px;
     width: 100%;
 max-width:1200px ;
@@ -326,6 +410,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin: 455px  92px;
+background-size: 200%;
 
 }
 
@@ -339,6 +424,7 @@ overflow: hidden;
 margin: 31px;
 text-align: center;
 transition: all 0.25;
+background-size: 200%;
 
 }
 
@@ -416,16 +502,18 @@ color: $black;
 font-size: 40px;
 
 }
+////////////////////////////////////////////////////////////////////////////////ACA TERMINA LO DE IMGS2 DE LA PAGINA PRINCIPAL
 
-.especifico{//ESTO ES PARA LA IMAGEN DE OTRO EENTO ESPECIFICO
+.especifico{//ESTO ES PARA LA IMAGEN DE OTRO EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
 position: absolute;
 top: 943px;
 right: 641px;
     width: 38%;
     height: 44%;
+    //background-size: 200%;
 }
-.text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO
-
+.text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
+//background-size: 200%;
     position: absolute;
     
 //top: 0px;
@@ -438,13 +526,13 @@ margin: 31px 114px 64px 778px;
 color: $white;
 
 
-}
+}/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .cuadro{// ESTE EL CUADRO DE EL MEDIO COLOR QUE ESTA DEAJO DE LOS EENTOS
     position: absolute;
-    background: $color-m;
+    background:rgba(#9370DB, 0.7) ;
 width: 102%;
 height: 58%;
-
+background-size: 200%;
 margin: -33px 114px 64px 0px;
 
 }
@@ -928,38 +1016,18 @@ transition: all 300ms;
         }
     .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
 
-        background:$black;
-
-
+        
+       margin-top: 366px;
+       margin-right: -204px;
+       height: 201px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
     }
 
-    .link--1{
-        text-decoration: none;
-height: 56px;
-width: 164px;
-//display: grid;
-//place-items: center;
 
-&-b-tr,
-&-b-b1{
-position: absolute;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
+    
 
-&::before,
-&::after{
-
-    content: '';
-    position: absolute;
-background-color: $morado;
-transition: all 400ms ease-in-out;
-}
-}
-
-&:hover{
-    color: $morado;
-}
-
-    }
+    
