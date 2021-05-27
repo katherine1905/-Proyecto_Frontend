@@ -4,6 +4,7 @@
     padding: 0;
    
    }
+   
 //VARIABLES
 $light-green: #E6E6FA;
 $claro:#E0E0E0;
@@ -19,13 +20,7 @@ $purple:#8E24AA;
 $morado:#9932cc;
 $text:#3998db;
 $contact:#87CEEB;
-.contenedor{
-width: 113%;
 
-margin: 0 auto;
-overflow: hidden;
-
-}
 .logo{//ESTO ES PARA EL LOGO DE SUPERTICKETS
 
     margin-top: -130px;
@@ -35,15 +30,18 @@ overflow: hidden;
 footer{ //ESTO ES PARA LA PARTE DE FOOTER DE ABAJO
 position: absolute;
 margin-top: 265px;
+
 left: 0;
 right: 0;
     background:rgba(#9370DB, 0.7) ;
-    width: 101vw;
+    width: 106%;
     height: 14vw;
     padding-top: -12px;
 color: $white;
 font-family: 'Roboto', sans-serif;
     font-weight: 500;   
+    background-attachment: fixed;
+
 }
 .footer-content{
     height: 201px;
@@ -63,16 +61,19 @@ font-family: 'Roboto', sans-serif;
 }
 .footer-content p{
 max-width: 500px;
-margin: 10px auto;
+margin-top: 51px;
+margin-left: -30px;
+//margin: 10px auto;
 line-height: 28px;
-font-size: 14px;
+font-size: 15px;
+
 }
 .socials{
 list-style: none;
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 1rem 0 3rem 0;
+margin: 2rem 0 3rem -44px;
 }
 
 .socials li{
@@ -93,7 +94,7 @@ color: $p;
 }
 .footer-bottom{//ESTO ES PARA LA BARRA ULTIMA DEL COPY
 background: rgba(#DDA0DD, 9);
-width: 101vw;
+width: 100%;
 padding: 20px 0;
 text-align: center;
 height: 4vw;
@@ -119,12 +120,13 @@ font-weight: 500;
 /////////////ACA IRIA LO DEL HEADER EN MOIMIENTO
 .container-header{
     margin-top: -50px;
-width: 114%;
+    margin-left: -12px;
+width: 122%;
 height: 300px;
 position: relative;
 background-image: url(../imgs/header.jpg);
 background-size: 200%;
-animation: movimiento 14s  infinite linear alternate;
+animation: movimiento 22s  infinite linear alternate;
 
 }
 
@@ -178,14 +180,16 @@ cursor: pointer;
     border-style: none;
     //border: 1px solid $purple;
     color:$black;
-    margin-top: 4px;
+    margin-top: 0;
     transition: background 500ms;
     cursor: pointer;
     
 }
 .disfruta button:hover{
-    background: $contact;
-    color: $morado;
+    background: #9370DB;
+    color: $white;
+    width: 100%;
+    height: 42px;
     
     }
 .details button:hover{
@@ -195,10 +199,12 @@ color: $morado;
 }
 //////////////////////////////////////////////////////////////////////ACA TERMINA LA PARTE DE HEADER
 body{
-    width: 90%;
+    margin: 0;
+    width: 89%;
     height: 100%;
     background-color:$claro;
-  
+    background-attachment: fixed;
+    
 }
 /////////////////////////////////////////////////////////////////////////
 
@@ -276,8 +282,9 @@ margin: 1px -417px 71px 478px ;
 
 #menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
 background: $pink;
-width: 1385px;
+width: 1427px;
 height: 70px;
+margin-left: -12px;
 
 }
 
@@ -351,6 +358,10 @@ height: -55px;
     border-radius: 0%;
     cursor: pointer;
 }
+a {
+    color:$pink;
+    text-decoration: underline;
+}
 .btn-Confirmar {
     position: absolute;
     top: -55px;
@@ -393,7 +404,7 @@ width: 100%;
 max-width:1200px ;
 height: 430px;
 display: flex;
-flex-wrap: wrap;
+//flex-wrap: wrap;
 justify-content: center;
 margin: 72px 110px;
 
@@ -488,7 +499,7 @@ font-size: 16px;
 font-family: 'Roboto', sans-serif;
 font-weight: 1000;
 text-decoration: none;
-color:#BA68C8;
+color:#9370DB;
 
 
 }
@@ -510,7 +521,7 @@ top: 943px;
 right: 641px;
     width: 38%;
     height: 44%;
-    //background-size: 200%;
+    background-attachment: fixed;
 }
 .text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
 //background-size: 200%;
@@ -528,69 +539,18 @@ color: $white;
 
 }/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .cuadro{// ESTE EL CUADRO DE EL MEDIO COLOR QUE ESTA DEAJO DE LOS EENTOS
+    
     position: absolute;
     background:rgba(#9370DB, 0.7) ;
-width: 102%;
+width: 105%;
 height: 58%;
-background-size: 200%;
+background-attachment: fixed;
+
 margin: -33px 114px 64px 0px;
 
 }
 
-.cuadro-F{// ESTE EL CUADRO FINAL DE CONTACT DE COLOR QUE ESTA DEAJO DE LOS EENTOS
-    position: absolute;
-width: 102%;
-height: 23%;
-background: $contact;
-margin: 702px 114px 64px 0px;
 
-}
-
-.icons{// ESTO ES PARA LOS ICONS FINALES DE CONTACT
-
-    position: absolute;
-    right: 0px;
-    width: 9%;
-    height: 69px;
-    margin: 362px 114px 64px 0px;
-    
-
-}
-.text-C{//ESTO ES PARA EL SEGUNDO TEXTO DEL CONTACT
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;   
-    padding: 1rem 31rem;
-    font-size: 14px;    
-position: absolute;
-//top: 1500px;
-right: 160px;
-    margin: 710px -116px 48px 67px;
-color: $grayC;
-text-align: center;
-
-}
-.text-Co{//ESTO ES PARA EL PRIMER TEXTO DEL CONTACT
-font-family: 'Roboto', sans-serif;
-font-weight: 300;   
-padding: 0rem 44rem;
-font-size: 14px;    
-position: absolute;
-right: 240px;
-margin: 727px -94px 81px -442px;
-color: $grayC;
-text-align: center;
-}
-.text-Contact{//ESTO ES PARA EL PRIMER TEXTO DEL CONTACT
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;   
-    padding: 0rem 1rem;
-    font-size: 14px;    
-    position: absolute;
-    right: 268px;
-    margin: 744px -252px 59px -231px;
-    color: $grayC;
-    text-align: center;
-    }
 
 
 
@@ -600,7 +560,9 @@ text-align: center;
     width: 90%;
     height: 100%;
     //background: -webkit-linear-gradient(180deg, $morado,$pink);
-   
+   padding: 0;
+   margin: 0;
+
     background-color:$p;
   
 }
@@ -617,7 +579,7 @@ text-align: center;
     height: 95px;
     max-width: 800px;
     margin: 22% auto;
-    
+     background-attachment: fixed;
     color:$white;
     padding: 5px;
    
@@ -625,9 +587,10 @@ text-align: center;
 
 } 
 .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
+    
     position: absolute;
     top: -37px;
-    right: 231px;
+    right: 219px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -637,6 +600,7 @@ text-align: center;
     margin: 22% auto;
     color: #FFFF;
     padding: 5px;
+    background-attachment: fixed;
 }
 
 .form-Resumen {//Esto es para el formulario de resumen
@@ -678,10 +642,10 @@ text-align: center;
     background-color:$p;
     border-color:$p;
 }
-.btn-Registro2 {
+.btn-Registro2 {//ESTO ES PARA EL BOTON DE ACEPTAR DE REGISTRO 
     position: absolute;
     top: 472px;
-    right: 355px;
+    right: 357px;
     background: $purple ;
     width: 9vw;
     height: 2vw;
@@ -693,7 +657,9 @@ text-align: center;
     text-decoration: none;
 }
 
-
+a:hover {//ESTO ES EL HOER PARA EL BOTON DE ACEPTAR DE REGISTRO
+    color:$pink;
+}
 
    .ticket{// ESTO ES PARA EL TITLO DE COMPRA TICKECTS
     color: $white;
@@ -748,6 +714,14 @@ font-size: 21px;
     color: $white;
     font-size: 21px;
 }
+.nombre-Email{//ESTO ES PARA EL TEXTO FECHA
+
+    position: absolute;
+    top: 267px;
+    left: 375px;
+    color: $white;
+    font-size: 21px;
+}
 .nombre-l{
 
     position: absolute;
@@ -786,10 +760,12 @@ font-size: 21px;
     padding: 0rem 1rem;
     font-size: 30px;    
     position: absolute;
-    right: 605px;
-    top: 120px;
-    color: $black;
+    right: 565px;
+    top: 81px;
+    color: #413d4b;
     text-align: center;
+    z-index: 10;
+    overflow: hidden;
 
 }
 .evento-subtitulo{ //ESTO ES PARA EL TEXTO DE CATEGORIA
@@ -797,12 +773,13 @@ font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;   
     padding: 0rem 1rem;
-    font-size: 30px;    
+    font-size: 27px;    
     position: absolute;
-    right: 586px;
-    top: 180px;
-    color: $black;
+    right: 595px;
+    top: 127px;
+    color: #413d4b;
     text-align: center;
+    z-index: 10;
 
 }
 .evento-lugar-etc{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
@@ -810,12 +787,13 @@ font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;   
     padding: 0rem 1rem;
-    font-size: 25px;    
+    font-size: 40px;    
     position: absolute;
-    right: 326px;
-    top: 731px;
+    right: 70px;
+    top: 722px;
     color: $black;
     text-align: center;
+   
 
 }
 .proximos-Eventos{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
@@ -823,10 +801,10 @@ font-size: 21px;
     font-family: "Roboto",sans-serif;
     font-weight: 600;
     padding: 0rem 1rem;
-    font-size: 31px;
+    font-size: 39px;
     position: absolute;
-    right: 508px;
-    top: 838px;
+    right: 454px;
+    top: 848px;
     color: #413d4b;
     text-align: center;
 
@@ -839,11 +817,11 @@ width: 100%;
 }
 .content-img{//ESTO ES PARA LA IMG PRINCIPAL
 
-    width: 710px;
+    width: 103vw;
     height: 434px;
     margin: auto;
-    margin-top: 212px;
-    margin-left: -745px;
+    margin-top: 150px;
+    margin-left: -1074px;
     position: relative;
     overflow: hidden;
 }
@@ -929,8 +907,8 @@ transition: all 300ms;
             ///////////////////////////////////////////////////////////////////////////////////////////////
            .container-detalle {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
                 position: absolute;
-                top: 435PX;
-                right: -41px;
+                top: 481PX;
+                right: -63px;
                 width: 100%;
                 max-width: 1200px;
                 height: 430px;
@@ -968,6 +946,7 @@ transition: all 300ms;
 
           position: absolute;
           top: 0;
+          right: 90px;
           width: 400px;
           padding: 10px;
           z-index: 10;
@@ -1009,10 +988,10 @@ transition: all 300ms;
 
         .container-cuadro-Evento{
             position: absolute;
-    width: 102%;
-    height: 20%;
+    width: 105%;
+    height: 12%;
     background: #FFCC80;
-    margin: 577px 114px 64px -1072px;
+    margin: 666px 114px 64px -1072px;
         }
     .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
 
@@ -1028,6 +1007,156 @@ transition: all 300ms;
     }
 
 
-    
+   /////////////////////////////////////////////////////////////////////////
 
+
+    @media screen and (max-width:575.98px){
+///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
+
+        .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
     
+           width: 100%;
+        }
+
+        .registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+            width: 70%;
+           
+        }
+
+        .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+            width: 93%;
+            margin: 8px;
+            margin-left: 268px;
+            }
+            
+            .ticket{
+                width: 100%;
+                top: 96px;
+                right: -3px;
+            }
+            .nombre-e{///NOMBRE EENTO
+                width: 100%;
+                    top: 200px;
+                    left: 35px;
+            }
+            .nombre-l {//NOMBRE DE LUGAR
+                top: 200px;
+                right: 81px;
+            }
+
+            .nombre-h {//NOMBRE DE HORA
+                top: 304px;
+                right: 327px;
+            }
+            .nombre-f {
+                top: 307px;
+                left: 343px;
+            }
+            .btn-Registro2 {
+                top: 497px;
+                right: -97px;
+                width: 27vw;
+                height: 7vw;
+            }
+
+            .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+               
+                top: 395px;
+                right: -247px;
+               
+            }
+//////////////////////////////////////////////ACA TERMINA PAGINA REGISTRO
+
+
+/////////////////////////////////////////////////7ACA INICIA PAGINA DE CONFIRMAR COMPRA
+.form-Confirmar {
+    top: 104px;
+    right: 252px;
+    width: 100%;
+}
+
+.btn-Registro2 {
+    top: 497px;
+    right: -109px;
+}
+
+////////////////////////////////////////////////////////////////ACA INICIA PAGINA RESUMEN COMPRA
+.form-Resumen {
+    
+    top: 260px;
+    right: 252px;
+}
+.nombre-Email {
+   
+    top: 276px;
+    left: 35px;
+}
+//////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+#menu {
+   
+    width: 427px;
+    
+    margin-left: -12px;
+}
+.logo {
+   
+    margin-left: -399px;
+}
+
+.container {
+    width: 195%;
+    height: 430px;
+     display: block; 
+   
+    margin: 56px -5px;
+}
+.especifico {
+    position: absolute;
+    top: 1772px;
+    /* right: 641px; */
+    width: 74%;
+    height: 29%;
+    background-attachment: fixed;
+}
+.cuadro {
+    position: absolute;
+    background: rgba(147,112,219,0.7);
+    width: 105%;
+    height: 38%;
+    background-attachment: fixed;
+    margin: 767px 114px 64px -13px;
+}
+.container-E {
+    position: absolute;
+    top: 1493px;
+    right: -68px;
+    width: 95%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 455px 92px;
+    background-size: 200%;
+}
+footer {
+    
+    margin-top: 832px;
+}
+
+
+.form-Registro {
+    
+    top: 282px;
+    right: 251px;
+   
+    margin: 23% auto;
+   
+    padding: 5px;
+    
+}
+.text-Proximos-E {
+    margin-top: 1018px;
+}
+
+    }
