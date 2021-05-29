@@ -26,7 +26,7 @@
     <ul> 
     
       <li> <a href="http://supertickets.test/">Principal</a></li>
-      <li> <a href="Registro.html">Registrarse</a></li>
+      <li> <a href="Registro.php">Registrarse</a></li>
       <li> <a href="#">Contacto</a></li>
       
     </ul>

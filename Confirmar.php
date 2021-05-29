@@ -56,7 +56,7 @@
                            <input  type="" class="input-field-dos" placeholder="  Fecha de vencimiento" > 
                        
                             </div>
-                            <a href="Resumen.html" class="btn-Registro2 btn- dafault"> Aceptar</a>
+                            <a href="Resumen.php" class="btn-Registro2 btn- dafault"> Aceptar</a>
                        
                         </form>
                 

@@ -57,7 +57,7 @@
                        <input type="" class="input-field" placeholder="    Cantidad Adultos" > 
                        <input type="" class="input-field" placeholder="    Cantidad Niños" > 
                        <input  type="" class="input-field-dos" placeholder="    Costo Total" > 
-                       <a href="Confirmar.html" class="btn-Registro2 btn-Registro2- dafault"> Aceptar</a>
+                       <a href="Confirmar.php" class="btn-Registro2 btn-Registro2- dafault"> Aceptar</a>
                       
                        
                             </div>
