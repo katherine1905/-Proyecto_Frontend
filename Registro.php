@@ -50,7 +50,12 @@
                 <div class="form-Registro">
                     <form class="input-group">
                         <div class=" search-dos">
-                        <input type="" class="input-field" placeholder="   Cantidad Personas" required>  
+                        <label type="submit" class="textRegistro">Niño
+                            <input class="numero"></input>
+                            </label>
+                        <label type="submit"class="input-field"  >Cantidad Personas
+                        <input type="" class="input-field" placeholder="   Cantidad Personas" required>
+                        </label>  
                         <input type="" class="input-field" placeholder="   Cantidad Adultos" required>  
                        <input type="" class="input-field" placeholder="    Cantidad Niños" required> 
                        <input type="" class="input-field" placeholder="    Costo Persona" > 
