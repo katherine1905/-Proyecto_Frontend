@@ -36,7 +36,7 @@
         </nav>
         <nav class="navbar navbar-light ">
           <form class="form-inline">
-            <input class="form-control mr-sm-2" type="Buscar" placeholder="Buscar"aria-labelledby="Buscar"  >
+           <label for="Search"> <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" ></label>
             <button class="btn-Registro btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
           </form>
         </nav>
