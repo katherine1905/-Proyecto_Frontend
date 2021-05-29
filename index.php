@@ -150,10 +150,10 @@
 </p>
 
 <ul class="socials"> 
-<li> <a href="#"><i class="fa fa-facebook"></i><span class="sr-only">facebook</span></a></li>
-<li> <a href="#"><i class="fa fa-twitter"></i><span class="sr-only" >twitter</span></a></li>
-<li> <a href="#"><i class="fa fa-google-plus"></i><span class="sr-only">google-plus</span></a></li>
-<li> <a href="#"><i class="fa fa-youtube"></i><span class="sr-only" >youtube</span></a></li>
+<li> <a href="#"><i class="fa fa-facebook"></i><span class="sr-only"> facebook</span></a></li>
+<li> <a href="#"><i class="fa fa-twitter"></i><span class="sr-only" > twitter</span></a></li>
+<li> <a href="#"><i class="fa fa-google-plus"></i><span class="sr-only"> google-plus</span></a></li>
+<li> <a href="#"><i class="fa fa-youtube"></i><span class="sr-only" > youtube</span></a></li>
 </ul>
 </div>
          <div class="footer-bottom"> 
