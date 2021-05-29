@@ -37,7 +37,7 @@
 
   <nav class="navbar navbar-light">
     <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" >
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
     </form>
   </nav>
@@ -150,10 +150,10 @@
 </p>
 
 <ul class="socials"> 
-<li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-<li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-<li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
-<li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+<li> <a href="#"><i class="fa fa-facebook"></i><span class="sr-only">facebook</span></a></li>
+<li> <a href="#"><i class="fa fa-twitter"></i><span class="sr-only" >twitter</span></a></li>
+<li> <a href="#"><i class="fa fa-google-plus"></i><span class="sr-only">google-plus</span></a></li>
+<li> <a href="#"><i class="fa fa-youtube"></i><span class="sr-only" >youtube</span></a></li>
 </ul>
 </div>
          <div class="footer-bottom"> 
