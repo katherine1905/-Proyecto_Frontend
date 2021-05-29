@@ -335,7 +335,7 @@ height: -55px;
 .btn-E {//ESTA ES PARA EL ICONO DE BUSCAR DE EENTO
     position: absolute;
     top: -55px;
-    right: 54px;
+    right: 59px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -348,7 +348,7 @@ height: -55px;
 .btn-Registro {//ESTA ES PARA EL ICONO DE BUSCAR DE REGISTRO
     position: absolute;
     top: -55px;
-    right: -64px;
+    right: -58px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -365,7 +365,7 @@ a {
 .btn-Confirmar {
     position: absolute;
     top: -55px;
-    right: -66px;
+    right: -58px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -378,7 +378,7 @@ a {
 .btn-Resumen {
     position: absolute;
     top: -55px;
-    right: -69px;
+    right: -59px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -507,7 +507,7 @@ color:#9370DB;
 .container .title{//ESTO ES PARA EL TITLO DE EENTO
     position: absolute;
     top: 376px;
-    right: 575px;
+    right: 588px;
 color: $black;
 
 font-size: 40px;
@@ -645,7 +645,7 @@ margin: -33px 114px 64px 0px;
 .btn-Registro2 {//ESTO ES PARA EL BOTON DE ACEPTAR DE REGISTRO 
     position: absolute;
     top: 472px;
-    right: 357px;
+    right: 346px;
     background: $purple ;
     width: 9vw;
     height: 2vw;
@@ -1007,10 +1007,10 @@ transition: all 300ms;
     }
 
 
-   /////////////////////////////////////////////////////////////////////////
+   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA MOIL
 
 
-    @media screen and (max-width:575.98px){
+    @media screen and(min-width: 414px) and (max-width: 736px) {
 ///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
 
         .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
@@ -1050,7 +1050,7 @@ transition: all 300ms;
             }
             .nombre-f {
                 top: 307px;
-                left: 343px;
+                left: 277px;
             }
             .btn-Registro2 {
                 top: 497px;
@@ -1091,7 +1091,45 @@ transition: all 300ms;
     top: 276px;
     left: 35px;
 }
+/////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
+
+
+.evento-lugar-etc {
+    font-size: 35px;
+    right: -9px;
+    top: 698px;
+}
+
+
+.text-detalle {
+    
+    top: -14px;
+    right: 9px;
+    font-weight: 500;
+}
+.container-detalle {
+    top: 468PX;
+    right: -106px;
+}
+.container-cuadro-Evento {
+  
+    margin: 1199px 114px 64px -1072px;
+}
+.proximos-Eventos {
+    right: 32px;
+    top: 876px;
+    font-size: 35px;
+}
+.container .title {
+    top: 367px;
+    right: 139px;
+    font-size: 33px;
+}
+
 //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+.details {
+    top: -39px;
+}
 #menu {
    
     width: 427px;
@@ -1111,33 +1149,23 @@ transition: all 300ms;
     margin: 56px -5px;
 }
 .especifico {
-    position: absolute;
+   
     top: 1772px;
     /* right: 641px; */
     width: 74%;
     height: 29%;
-    background-attachment: fixed;
 }
 .cuadro {
-    position: absolute;
-    background: rgba(147,112,219,0.7);
+   
     width: 105%;
     height: 38%;
-    background-attachment: fixed;
+    
     margin: 767px 114px 64px -13px;
 }
 .container-E {
-    position: absolute;
-    top: 1493px;
-    right: -68px;
-    width: 95%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 455px 92px;
-    background-size: 200%;
+    top: 1538px;
+    right: -100px;
+   
 }
 footer {
     
@@ -1156,7 +1184,218 @@ footer {
     
 }
 .text-Proximos-E {
-    margin-top: 1018px;
+    margin-top: 1032px;
+    margin-left: -130px;
 }
 
     }
+
+
+    //&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA TABLET
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+        .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
+    
+            width: 98%;
+            top: 238px;
+            right: 260px;
+            
+         }
+ 
+         .registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+             width: 70%;
+            
+         }
+ 
+         .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+            width: 93%;
+    margin: 19px;
+    margin-left: 279px;
+             }
+             
+             .ticket{
+                 width: 100%;
+                 top: 106px;
+                 right: -3px;
+             }
+             .nombre-e{///NOMBRE EENTO
+                font-size: 29px;
+                 width: 100%;
+                 top: 202px;
+                left: 53px;
+                font-weight: 500;
+    
+             }
+             .nombre-l {//NOMBRE DE LUGAR
+                font-size: 29px;
+                 top: 200px;
+                 right: 134px;
+                 font-weight: 500;
+             }
+ 
+             .nombre-h {//NOMBRE DE HORA
+                font-size: 29px;
+                 top: 304px;
+                 right: 140px;
+                 font-weight: 500;
+             }
+             .nombre-f {//NOMBRE PARA FECHA
+                font-size: 29px;
+                top: 307px;
+                left: 133px;
+                font-weight: 500;
+             }
+            
+ 
+             .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+                
+                top: 529px;
+                right: -246px;
+            
+                
+             }
+ //////////////////////////////////////////////ACA TERMINA PAGINA REGISTRO
+ 
+ 
+ /////////////////////////////////////////////////7ACA INICIA PAGINA DE CONFIRMAR COMPRA
+ .form-Confirmar {
+     top: 46px;
+     right: 252px;
+     width: 100%;
+ }
+ 
+ .btn-Registro2 {
+    width: 164px;
+    top: 658px;
+    right: 46px;
+    height: 50px;
+    font-size: 31px;
+
+ }
+ 
+ ////////////////////////////////////////////////////////////////ACA INICIA PAGINA RESUMEN COMPRA
+ .form-Resumen {
+     
+     top: 182px;
+     right: 252px;
+ }
+ .nombre-Email {
+    
+    top: 284px;
+    left: 59px;
+    font-size: 29px;
+    font-weight: 500;
+ }
+ /////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
+ 
+ 
+ .evento-lugar-etc {
+    font-size: 38px;
+    right: -1px;
+    top: 691px;
+ }
+ 
+ .text-detalle {
+     
+     top: -14px;
+     right: 9px;
+     font-weight: 500;
+ }
+ .container-detalle {
+     top: 448PX;
+     right: -106px;
+ }
+ .container-cuadro-Evento {
+   
+     margin: 1243px 114px 64px -1072px;
+ }
+ .proximos-Eventos {
+    right: 197px;
+    top: 834px;
+    font-size: 38px;
+ }
+ 
+ .evento-titulo {
+    right: 268px;
+    top: 87px;
+ }
+ .evento-subtitulo {
+    right: 294px;
+    top: 128px;
+    font-size: 30px;
+ }
+
+ 
+ //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+ 
+ .details {
+    
+    font-weight: 500;
+    top: -18px;
+    right: -19PX;
+    
+}
+ #menu {
+     margin-left: -12px;
+ }
+ .logo {
+    
+    margin-left: -547px;
+}
+ 
+ 
+ .container {
+    width: 195%;
+    height: 430px;
+    display: block;
+    margin: 113px 171px;
+ }
+
+ 
+ .especifico {
+    top: 1878px;
+    width: 67%;
+    right: 254px;
+    height: 29%;
+}
+ 
+ .cuadro {
+     position: absolute;
+     background: rgba(147,112,219,0.7);
+     width: 105%;
+     height: 38%;
+     background-attachment: fixed;
+     margin: 767px 114px 64px -13px;
+ }
+ .container-E {
+     top: 1869px;
+     right: -92px;
+     
+ }
+ footer {
+     
+    margin-top: 905px;
+ }
+ 
+ 
+ .text-Proximos-E {
+   font-size: 38px;
+    margin-right: -69px;
+     margin-top: 1269px;
+ }
+ .container .title {
+    position: absolute;
+    top: 387px;
+    right: 300px;  
+ } 
+
+ .text-E {
+    
+    padding: 0 -16rem;
+    font-size: 19px;
+    margin: 322px 83px 43px 537px;
+ }
+
+ 
+    }//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ACA TERMINA LO DE MEDIA PARA TABLET 
