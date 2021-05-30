@@ -20,20 +20,25 @@
 </head>
 <body class="registro">
 
-    <nav id="menu"> 
+<nav id="menu"> 
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+
+    </label>
+    <ul> 
+      <li> <a  href="#">Registro</a></li>
+      
+      <li> <a href="http://supertickets.test/"> Principal</a></li>
+      
+      <li> <a href="#">Ingresar</a></li>
+      
+      <li> <a href="#">Contacto</a></li>
+
+    </ul>
     
-        <ul> 
-          <li> <a href="#">Registro</a></li>
-          
-          <li> <a href="http://supertickets.test/"> Principal</a></li>
-          
-          <li> <a href="#">Ingresar</a></li>
-          
-          <li> <a href="#">Contacto</a></li>
-    
-        </ul>
-        
-        </nav>
+    </nav>
+
         <nav class="navbar navbar-light ">
           <form class="form-inline">
            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" >
@@ -51,15 +56,26 @@
                     <form class="input-group">
                         <div class=" search-dos">
                         
-                        <label type="text"class="input-field"  >
-                        <input type="" class="input-field" placeholder="   Cantidad Personas" required>
-                        </label>  
-                        <input type="" class="input-field" placeholder="   Cantidad Adultos" required>  
-                       <input type="" class="input-field" placeholder="    Cantidad Niños" required> 
-                       <input type="" class="input-field" placeholder="    Costo Persona" > 
-                       <input type="" class="input-field" placeholder="    Cantidad Adultos" > 
-                       <input type="" class="input-field" placeholder="    Cantidad Niños" > 
-                       <input  type="" class="input-field-dos" placeholder="    Costo Total" > 
+                       
+                        <input type="" class="input-field" placeholder="   Cantidad Personas" required aria-label="Cantidad de personas">
+                      
+                            <input type="" class="input-field" placeholder="   Cantidad Adultos" required aria-label="Cantidad de adultos">
+                          
+                            
+                            <input type="" class="input-field" placeholder="    Cantidad Niños" required aria-label="Cantidad de niños"> 
+                              
+                            
+                                 <input type="" class="input-field" placeholder="    Costo Persona" aria-label="Costo persona" > 
+                                
+                                 
+                                     <input type="" class="input-field" placeholder="    Cantidad Adultos" aria-label="Costo por adulto"> 
+                                   
+                                     
+                                         <input type="" class="input-field" placeholder="    Cantidad Niños" aria-label="Costo por niños"> 
+                                        
+                                         
+                                              <input  type="" class="input-field-dos" placeholder="    Costo Total" aria-label="Costo total > 
+                                               
                        <a href="Confirmar.php" class="btn-Registro2 btn-Registro2- dafault"> Aceptar</a>
                       
                        
