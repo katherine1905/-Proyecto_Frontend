@@ -21,22 +21,17 @@
 </head>
 <body class="Evento">
 
-    <nav id="menu"> 
+    <nav id="menu-Evento"> 
     
-    <ul> 
+    <ul > 
     
-      <li> <a href="http://supertickets.test/">Principal</a></li>
-      <li> <a href="Registro.php">Registrarse</a></li>
-      <li> <a href="#">Contacto</a></li>
+      <li> <a  href="http://supertickets.test/">Principal</a></li>
+      <li> <a  href="Registro.php">Registrarse</a></li>
+      <li> <a  href="#">Contacto</a></li>
       
     </ul>
     </nav>
-    <nav class="navbar navbar-light ">
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" >
-        <button class="btn-E btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
-    </nav>
+    
 
     <div class=" search">
 

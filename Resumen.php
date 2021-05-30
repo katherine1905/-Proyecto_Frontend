@@ -20,26 +20,19 @@
 </head>
 <body class="registro">
 
-    <nav id="menu"> 
+    <nav id="menu-Evento"> 
     
         <ul> 
-          <li> <a href="#">Registro</a></li>
+          <li> <a href="#">Resumen</a></li>
           
           <li> <a href="http://supertickets.test/"> Principal</a></li>
-          
-          <li> <a href="#">Ingresar</a></li>
           
           <li> <a href="#">Contacto</a></li>
     
         </ul>
         
         </nav>
-        <nav class="navbar navbar-light ">
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar"aria-label="Search"  >
-              <button class="btn-Resumen btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          </nav>
+        
                  <h1 class="ticket">Resumen Registro</h1>
                  <p class="nombre-e">Nombre Completo:  </p>
                  <p class="nombre-Email">E-mail: </p>
