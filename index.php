@@ -6,7 +6,6 @@
   name="description"           
   content="SuperTickets'It is a page that has the function that users can 
   enter and participate and buy tickets for the events that the page offers.">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,13 +98,12 @@
 <div class="cuadro"></div>
 
   <img  class="especifico" src="./imgs/teatro3.jpg" alt="especifico">
-  <h4 class="text-E">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+  <p class="text-E">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
     sed quia nonnumquam eiusmodi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
     Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
      nisi ut aliquid ex ea commodi consequatur? 
-    Quis autem vel eum iure reprehenderit qui in ea 
-    voluptate velit esse quam nihil molestiae consequatur, vel ilium qui
-    dolorem eum fugiat quo voluptas nulla pariatur?</h4>
+    
+    </p>
   
     <h2 class="text-Proximos-E">Próximos Eventos </h2>
 <div class="container-E">

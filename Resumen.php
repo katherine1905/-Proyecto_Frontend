@@ -24,11 +24,8 @@
     
         <ul> 
           <li> <a href="#">Resumen</a></li>
-          
-          <li> <a href="http://supertickets.test/"> Principal</a></li>
-          
           <li> <a href="#">Contacto</a></li>
-    
+          <li> <a href="http://supertickets.test/"> Principal</a></li>
         </ul>
         
         </nav>

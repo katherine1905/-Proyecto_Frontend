@@ -26,13 +26,17 @@
     <ul > 
     
       <li> <a  href="http://supertickets.test/">Principal</a></li>
-      <li> <a  href="Registro.php">Registrarse</a></li>
+      
       <li> <a  href="#">Contacto</a></li>
+    
+      <li> <a  href="Registro.php">Registrarse</a></li>
+
+      
       
     </ul>
     </nav>
     
-
+    
     <div class=" search">
 
 
@@ -41,19 +45,19 @@
 
 </div>
 
-<p class="evento-titulo">Rock In Rio</p>
-<h4 class="evento-subtitulo">Festival</h4>
+<p class="evento-titulo">La Orestíada</p>
+<h4 class="evento-subtitulo">Obra de Teatro</h4>
 
 <div class="content-all">
 <div class="content-img">
 
-  <img src="./imgs/rock.jpg" alt="concierto">
+  <img src="./imgs/ORESTIADA.jpg" alt="concierto">
 
   <div class="text-detalle">
      <h2>Descripción</h2>
-     <p>La dramática historia del amor prohibido entre jóvenes de familias rivales, Romeo Montesco y 
-       Julieta Capuleto. Frente a las miles de adversidades que su amor les presenta, los jóvenes
-        enfrentan las presiones de la rivalidad para finalmente ser derrotados por la desdicha.</p>
+     <p>Con una trilogía de obras de teatro, se pretende acercar a los jóvenes a las primeras expresiones de este arte y 
+       revelar el crudo precio de la venganza. Así se hará en La Orestíada,
+        un espectáculo de tres obras creadas en la Antigua Grecia que moldearon el teatro como se le conoce hoy.</p>
 
   </div>
 
@@ -68,7 +72,10 @@
 </div>
 
 <h4 class="evento-lugar-etc">Lugar:   Estadio Nacional          Fecha:   19 de mayo          Hora:  5:00 p.m</h4>  
+<h2 class="precio-Publico">Precio: $100</h2>
+<h2 class="publico-Edad">Público:  Mayores de 18</h2>
 <h2 class="proximos-Eventos">Próximos Eventos </h2>
+
 <div class="container-detalle">
   <div class="card-E">
     <img src="./imgs/torneo.jpg" alt="torneo" >

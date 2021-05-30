@@ -27,8 +27,13 @@ $contact:#87CEEB;
 /////////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA EL MENU RESPONSIE
 .logo{//ESTO ES PARA EL LOGO DE SUPERTICKETS
 
-    margin-top: -130px;
-    margin-left: -458px;
+    
+    margin-top: -136px;
+    margin-left: 27px;
+}
+.logo-E{
+    margin-top: -136px;
+    margin-left: 27px;
 }
 //////////////////////////////////////////////////////////////////////////////////
 footer{ //ESTO ES PARA LA PARTE DE FOOTER DE ABAJO
@@ -806,7 +811,7 @@ font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;   
     padding: 0rem 1rem;
-    font-size: 30px;    
+    font-size: 28px;    
     position: absolute;
     right: 565px;
     top: 81px;
@@ -818,13 +823,13 @@ font-size: 21px;
 }
 .evento-subtitulo{ //ESTO ES PARA EL TEXTO DE CATEGORIA
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;   
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
     padding: 0rem 1rem;
-    font-size: 27px;    
+    font-size: 27px;
     position: absolute;
-    right: 595px;
-    top: 127px;
+    right: 554px;
+    top: 123px;
     color: #413d4b;
     text-align: center;
     z-index: 10;
@@ -837,12 +842,33 @@ font-size: 21px;
     padding: 0rem 1rem;
     font-size: 40px;    
     position: absolute;
-    right: 70px;
-    top: 722px;
+    right: 117px;
+    top: 689px;
     color: $black;
     text-align: center;
-   
+}
 
+.precio-Publico{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    padding: 0rem 1rem;
+    font-size: 40px;    
+    position: absolute;
+    right: 510px;
+    top: 761px;
+    color: $black;
+    text-align: center;
+}
+.publico-Edad{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    padding: 0rem 1rem;
+    font-size: 40px;    
+    position: absolute;
+    right: 411px;
+    top: 839px;
+    color: $black;
+    text-align: center;
 }
 .proximos-Eventos{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
 
@@ -851,8 +877,8 @@ font-size: 21px;
     padding: 0rem 1rem;
     font-size: 39px;
     position: absolute;
-    right: 454px;
-    top: 848px;
+    right: 462px;
+    top: 929px;
     color: #413d4b;
     text-align: center;
 
@@ -955,7 +981,7 @@ transition: all 300ms;
             ///////////////////////////////////////////////////////////////////////////////////////////////
            .container-detalle {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
                 position: absolute;
-                top: 481PX;
+                top: 559px;
                 right: -63px;
                 width: 100%;
                 max-width: 1200px;
@@ -1039,7 +1065,7 @@ transition: all 300ms;
     width: 105%;
     height: 12%;
     background: #FFCC80;
-    margin: 737px 114px 64px -1072px;
+    margin: 807px 114px 64px -1072px;
         }
     .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
 
@@ -1058,7 +1084,7 @@ transition: all 300ms;
    //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA MOIL
 
 
-    @media screen and (max-width: 480px) {
+    @media screen and(max-width: 406px) and(max-width: 480px) {
 ///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
     #menu ul{
     margin: 5px 655px -18px 11px;
@@ -1195,20 +1221,39 @@ margin: 3px -317px 71px 379px ;
 
 
 .evento-lugar-etc {
-    font-size: 35px;
+    font-size: 30px;
     right: -9px;
-    top: 698px;
+    top: 640px;
 }
 .evento-titulo {  
     font-size: 30px;
-    right: 109px;
-    top: 77px;
+    right: 92px;
+    top: 85px;
 }
 .evento-subtitulo {
     font-size: 27px;
-    right: 127px;
+    right: 85px;
     top: 126px
 }
+
+.precio-Publico {
+    font-size: 30px;
+    right: 86px;
+    top: 765px;
+}
+.publico-Edad{
+
+    font-size: 30px;
+    right: 16px;
+    top: 817px;
+}
+
+.proximos-Eventos {
+    right: 50px;
+    top: 885px;
+    font-size: 30px;
+}
+
 .text-detalle {
     
     top: -14px;
@@ -1223,11 +1268,7 @@ margin: 3px -317px 71px 379px ;
   
     margin: 1199px 114px 64px -1072px;
 }
-.proximos-Eventos {
-    right: 32px;
-    top: 876px;
-    font-size: 35px;
-}
+
 .container .title {
     top: 367px;
     right: 139px;
@@ -1242,7 +1283,9 @@ margin: 3px -317px 71px 379px ;
 
 .logo {
    
-    margin-left: -399px;
+    margin-top: -130px;
+    margin-left: 0px;
+    opacity: 0;
 }
 
 .container {
@@ -1250,7 +1293,7 @@ margin: 3px -317px 71px 379px ;
     height: 430px;
      display: block; 
    
-    margin: 56px -5px;
+    margin: 56px -12px;
 }
 .especifico {
    
@@ -1263,16 +1306,18 @@ margin: 3px -317px 71px 379px ;
 .cuadro {
    
     width: 105%;
-    height: 38%;
+    height: 57%;
     
     margin: 767px 114px 64px -13px;
 }
 
 .text-E {
     
-    padding: 0 1rem;
+    padding:0vw;
+    margin:0 ;
     font-size: -14.5rem;
-    margin: 170px 89px 49px 243px;
+    top: 1722px;
+    left: 25px;
    
 }
 .container-E {
@@ -1282,7 +1327,8 @@ margin: 3px -317px 71px 379px ;
 }
 footer {
     
-    margin-top: 832px;
+    margin-top: 856px;
+    background: $light-purple;
 }
 
 
@@ -1306,7 +1352,7 @@ footer {
 
     //&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA TABLET
 
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (min-width: 768px) and (max-width: 979px) {
   
         .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
     
@@ -1406,7 +1452,7 @@ footer {
  .evento-lugar-etc {
     font-size: 38px;
     right: -1px;
-    top: 691px;
+    top: 689px;
  }
  
  .text-detalle {
@@ -1416,16 +1462,16 @@ footer {
      font-weight: 500;
  }
  .container-detalle {
-     top: 448PX;
+     top: 577px;
      right: -106px;
  }
  .container-cuadro-Evento {
    
-     margin: 1243px 114px 64px -1072px;
+     margin: 1378px 114px 64px -1072px;
  }
  .proximos-Eventos {
     right: 197px;
-    top: 834px;
+    top: 961px;
     font-size: 38px;
  }
  
@@ -1434,24 +1480,78 @@ footer {
     top: 87px;
  }
  .evento-subtitulo {
-    right: 294px;
+    right: 249px;
     top: 128px;
     font-size: 30px;
  }
 
- 
+ .precio-Publico {
+    right: 230px;
+    top: 809px;
+ }
+
+ .publico-Edad {
+    right: 146px;
+    top: 883px
+ }
  //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
- 
- .details {
+ #menu ul{
+    margin: 5px 655px -18px 11px;
+    padding: 0;
+    }
     
+        #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+        margin: 3px 859px;
+        margin-left: -920px;
+    float: left;
+    
+    }
+    
+    #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+        font-size: 16px;
     font-weight: 500;
-    top: -18px;
-    right: -19PX;
+    margin: 3px -317px 71px 379px ;
+}
+    
+#menu ul li {
+    margin: -1px 578px;
+    margin-left: -591px;
+    float: left;
+}
+
+ /////////////////////////////////////////////////////////////////////////
+ #menu-Evento a {
+    font-size: 23px;
+    margin: 3px -156px 72px 281px;
+}
+#menu-Evento ul li {
+    margin: 3px 859px;
+    margin-left: -862px;
+    float: left;
+   
+}
+////////////////////////////////////////////////////////////////////////////////
+
+.form-control {
+    margin-top: -60px;
+    margin-left: 512px;
+    width: 28%;
+ }
+
+ .btn {
+    top: -52px;
+    right: -358px;
+    width: 72px;
+    height: 35px;
+ }
+
+ .details {
+    font-weight: 500;
+    top: 30px;
+    left: 20px;
     
 }
- #menu {
-     margin-left: -12px;
- }
+ 
  .logo {
     
     margin-left: -547px;
@@ -1467,17 +1567,17 @@ footer {
 
  
  .especifico {
-    top: 1878px;
-    width: 67%;
-    right: 254px;
-    height: 29%;
+    top: 1835px;
+    width: 58%;
+    right: 298px;
+    height: 53%;
 }
  
  .cuadro {
      position: absolute;
      background: rgba(147,112,219,0.7);
      width: 105%;
-     height: 38%;
+     height: 67%;
      background-attachment: fixed;
      margin: 767px 114px 64px -13px;
  }
@@ -1505,10 +1605,14 @@ footer {
 
  .text-E {
     
-    padding: 0 -16rem;
-    font-size: 19px;
-    margin: 322px 83px 43px 537px;
- }
+    padding:0vw;
+    margin:0 ;
+    font-size: -14.5rem;
+    top: 1826px;
+    left: 504px;
+   
+}
+ 
 
  
     }//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ACA TERMINA LO DE MEDIA PARA TABLET 
