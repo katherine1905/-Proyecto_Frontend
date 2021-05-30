@@ -332,7 +332,7 @@ height: -55px;
 .btn{//ESTO ES PARA EL ICONO DE BUSCAR LA PRINCIPAL
     position: absolute;
     top: -55px;
-    right: -327px;
+    right: -204px;
     background:$morado ;
     width: 91px;
     height: 35px;
@@ -1052,7 +1052,7 @@ transition: all 300ms;
     text-decoration: none;
     display: block;
     padding: 17px 9px;
-    margin: 1px -417px 71px 478px ;
+    margin: 3px -317px 71px 379px ;
     
     }
     
@@ -1062,6 +1062,12 @@ transition: all 300ms;
     height: 70px;
     margin-left: -12px;
     
+    }
+
+    .form-control {
+        margin-top: -54px;
+        margin-left: 220px;
+        width: 28%;
     }
     
         .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
@@ -1108,6 +1114,10 @@ transition: all 300ms;
                 right: -97px;
                 width: 27vw;
                 height: 7vw;
+            }
+            .btn {
+                top: -55px;
+                right: -36px;
             }
 
             .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
@@ -1179,7 +1189,8 @@ transition: all 300ms;
 
 //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
 .details {
-    top: -39px;
+    top: 24px;
+    left: 13px;
 }
 
 .logo {

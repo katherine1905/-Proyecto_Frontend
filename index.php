@@ -30,7 +30,6 @@
     <ul> 
       <li> <a href="#"> Principal</a></li>
       <li> <a href="#">Evento</a></li>
-      <li> <a href="#">Ingresar</a></li>
       <li> <a href="#">Contacto</a></li>
     </ul>
     </nav>
