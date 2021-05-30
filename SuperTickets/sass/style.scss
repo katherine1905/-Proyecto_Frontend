@@ -1,0 +1,1514 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+   }
+   
+//VARIABLES
+$light-green: #E6E6FA;
+$claro:#E0E0E0;
+$black: #413d4b;
+$gray: #E0E0E0;
+$light-purple: #9a93ad;
+$color-m:#A89EE3;
+$p:#BA55D3;//color tentatio para el cuadro del medio
+$grayC:#FAFAFA;
+$white:#FFFF;
+$pink:#F8BBD0;
+$purple:#8E24AA;
+$morado:#9932cc;
+$text:#3998db;
+$contact:#87CEEB;
+
+/////////////////////////////////////////////////////////////////////////////////////////77ACA INICIA EL MENU RESPONSIE
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA EL MENU RESPONSIE
+.logo{//ESTO ES PARA EL LOGO DE SUPERTICKETS
+
+    margin-top: -130px;
+    margin-left: -458px;
+}
+//////////////////////////////////////////////////////////////////////////////////
+footer{ //ESTO ES PARA LA PARTE DE FOOTER DE ABAJO
+position: absolute;
+margin-top: 265px;
+
+left: 0;
+right: 0;
+    background:rgba(#9370DB, 0.7) ;
+    width: 106%;
+    height: 14vw;
+    padding-top: -12px;
+color: $white;
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;   
+    background-attachment: fixed;
+
+}
+.footer-content{
+    height: 201px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+}
+.footer-content h3{
+    margin-top: 58px;
+    font-size: 29px;
+    font-weight: 400;
+     text-transform: capitalize;
+    line-height: 1rem;
+
+}
+.footer-content p{
+max-width: 500px;
+margin-top: 51px;
+margin-left: -30px;
+//margin: 10px auto;
+line-height: 28px;
+font-size: 15px;
+
+}
+.socials{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 2rem 0 3rem -44px;
+}
+
+.socials li{
+ margin: 0 10px;
+}
+.socials a{
+
+    text-decoration: none;
+    color: $white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+color: $p;
+
+}
+.footer-bottom{//ESTO ES PARA LA BARRA ULTIMA DEL COPY
+background: rgba(#DDA0DD, 9);
+width: 100%;
+padding: 20px 0;
+text-align: center;
+height: 4vw;
+margin-top: -14px;
+}
+.footer-bottom p{//ESTO ES PARA LO DEL COPY
+font-size: 12px;
+word-spacing: 2px;
+text-transform: capitalize;
+font-weight: 500;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 500;
+
+}
+
+//////////////////////////////////////////////////////////////////HASTA TERMINA EL FOOTER
+
+
+/////////////ACA IRIA LO DEL HEADER EN MOIMIENTO
+.container-header{
+    margin-top: -50px;
+    margin-left: -12px;
+width: 122%;
+height: 300px;
+position: relative;
+background-image: url(../imgs/header.jpg);
+background-size: 200%;
+animation: movimiento 22s  infinite linear alternate;
+
+}
+
+@keyframes movimiento{
+
+    from{
+background-position: bottom left;
+    }to{
+background-position: top right ;
+    }
+}
+
+
+.container-detalles{
+width: 100%;
+max-width: 1200px;
+position: relative;
+margin: auto;
+}
+.details{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 47px;
+    left: -68px;
+    color: $white;
+}
+.details h1{
+    font-size: 30px;
+}
+.details button{
+padding: 10px 20px;
+font-size: 16px;
+background: none;
+border-style: none;
+border: 1px solid white;
+color: white;
+margin-top: 5px;
+transition: background 300ms;
+cursor: pointer;
+
+
+}
+.disfruta button{
+
+    padding: 1px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border-style: none;
+    //border: 1px solid $purple;
+    color:$black;
+    margin-top: 0;
+    transition: background 500ms;
+    cursor: pointer;
+    
+}
+.disfruta button:hover{
+    background: #9370DB;
+    color: $white;
+    width: 100%;
+    height: 42px;
+    
+    }
+.details button:hover{
+background: $pink;
+color: $morado;
+
+}
+//////////////////////////////////////////////////////////////////////ACA TERMINA LA PARTE DE HEADER
+body{
+    margin: 0;
+    width: 89%;
+    height: 100%;
+    background-color:$claro;
+    background-attachment: fixed;
+    
+}
+/////////////////////////////////////////////////////////////////////////
+
+.btn-outline-success:active {
+    color: #fff;
+    background-color:$p;
+    border-color:$p;
+}
+
+.btn-outline-success {
+    color: $p;
+    border-color: $p;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:$p; 
+     border-color:$p; 
+}
+///////////////////////////////////////////////////////////////
+
+
+
+.bg-light {
+    background-color: #f8f9fa;
+    opacity: 10;
+}
+
+.form-control {
+    margin-top: -63px;
+    margin-left: 990px;
+    display: block;
+    width: 16%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 40;
+    line-height: 0.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+////////////////////////////////////////////////////////////////////////ACA EMPIEZA EL primer MENU
+#menu ul{
+
+    float: right;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {//ESTO ES PARA LO TITULO DEL NOMBRE DEL EENTO
+    margin-top: 10px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+    margin: 3px 859px;
+    margin-left: -872px;
+float: left;
+
+}
+
+#menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+    font-size: 16px;
+font-weight: 500;
+color: $purple;
+text-decoration: none;
+display: block;
+padding: 17px 9px;
+margin: 1px -417px 71px 478px ;
+
+}
+
+#menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
+background: $pink;
+width: 1427px;
+height: 70px;
+margin-left: -12px;
+
+}
+
+
+#menu a:hover{// parte para hacer el cuadro sombreado cuando se pone el puntero
+
+color: $white;
+//background: rgba(128, 0, 128, 0.1);
+height: -55px;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////// ACA SEGUNDO MENU PARA LAS OTRAS PAGINAS
+#menu-Evento ul{
+
+    float: right;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#menu-Evento ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+    margin: 3px 859px;
+    margin-left: -872px;
+float: left;
+
+}
+
+#menu-Evento a{//ESTO ES PARA LA LETRA DEL MENÚ
+    font-size: 16px;
+font-weight: 500;
+color: $purple;
+text-decoration: none;
+display: block;
+padding: 17px 9px;
+margin: 8px -401px 72px 542px;
+
+}
+
+#menu-Evento {// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
+background: $pink;
+width: 1427px;
+height: 70px;
+margin-left: -12px;
+
+}
+
+
+#menu-Evento a:hover{// parte para hacer el cuadro sombreado cuando se pone el puntero
+
+color: $white;
+//background: rgba(128, 0, 128, 0.1);
+height: -55px;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA SEGUNDO MENU
+
+
+///////////////////////////////////////////////////////////////////////////////////////ACA EMPIEZA LO DE BUSCAR
+.search{//ESTO ES PARA LA BARRA DE BUSCAR 
+
+    //position: absolute; 
+    padding: 4px 0px 0px 1125px ;
+    margin: -52px;
+}
+
+.search input{// TEXTO QUE IRIA ADENTRO DE BARRA DE BUSCAR
+
+    width:238px ;
+    height: 30px ;
+    padding: 0 20px 0px 17px ;
+    margin:1px ;
+    font-size: 16px;
+    color: $light-purple;
+    outline: none;
+    border: 1px solid $morado;
+    border-radius: 38px;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////
+.btn{//ESTO ES PARA EL ICONO DE BUSCAR LA PRINCIPAL
+    position: absolute;
+    top: -55px;
+    right: -204px;
+    background:$morado ;
+    width: 91px;
+    height: 35px;
+   // line-height: 36px;
+    text-align: center;
+    color: $grayC;
+    font: size 20px; ;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-E {//ESTA ES PARA EL ICONO DE BUSCAR DE EENTO
+    position: absolute;
+    top: -55px;
+    right: -230px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-Registro {//ESTA ES PARA EL ICONO DE BUSCAR DE REGISTRO
+    position: absolute;
+    top: -55px;
+    right: -332px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+a {
+    color:$pink;
+    text-decoration: underline;
+}
+.btn-Confirmar {
+    position: absolute;
+    top: -55px;
+    right: -335px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.btn-Resumen {
+    position: absolute;
+    top: -55px;
+    right: -336px;
+    background: #9932cc;
+    width: 91px;
+    height: 35px;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA LO DEL ICONO DE BUSCAR 
+
+.container{//ESTO ES PARA EL CONTAINER DE LAS IMAGENES
+
+width: 100%;
+max-width:1200px ;
+height: 430px;
+display: flex;
+//flex-wrap: wrap;
+justify-content: center;
+margin: 72px 110px;
+
+}
+//////////////////////////////////////////////////////////////////////CONTAINER IMAGS 2 DE LA PAGINA PRINCIPAL
+.container-E{//ESTO ES PARA EL CONTAINER DE LAS OTRAS IMGS 2
+    position: absolute;
+    top: 913PX;
+    right: -41px;
+    width: 100%;
+max-width:1200px ;
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 455px  92px;
+background-size: 200%;
+
+}
+
+
+.container .card{// ESTO ES PARA ALINEAR LOS TEXTOS QUE ESTA EN EL CONTAINER
+width: 330px;
+height: 390px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+overflow: hidden;
+margin: 31px;
+text-align: center;
+transition: all 0.25;
+background-size: 200%;
+
+}
+
+.container-E .card-E{// ESTO ES PARA ALINEAR LOS TEXTOS QUE ESTA EN EL CONTAINER
+    width: 330px;
+    height: 258px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 31px;
+    text-align: center;
+    transition: all 0.25;
+    
+    }
+
+.container .card:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS IMG
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.container .card img{// ESTO ES PARA DEFINIR EL TAMAÑO DE LAS IMG
+
+width: 330px;
+height: 220px;
+
+}
+
+.container-E .card-E:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS OTRAS IMG2
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.container-E .card-E img{// ESTO ES PARA DEFINIR EL TAMAÑO DE LAS OTRAS IMGS2
+
+width: 330px;
+height: 220px;
+
+}
+
+.container.card h4{//ESTO ES PARA EL TITULO QUE ESTA DENTRO DE LAS IMAGENES
+position: absolute;
+top: 0px;
+    font-weight: 600;
+
+}
+
+.container .card p{//ESTO ES PARA EL TEXTO QUE ESTA DENTRO DE LAS IMG
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+padding: 0 1rem;
+font-size: 16px;
+
+
+}
+
+.container .card a{//ESTO ES PARA LA PARTE DE  INGRESAR DE LAS IMG
+font-family: 'Roboto', sans-serif;
+font-weight: 1000;
+text-decoration: none;
+color:#9370DB;
+
+
+}
+
+.container .title{//ESTO ES PARA EL TITLO DE EENTO
+    position: absolute;
+    top: 376px;
+    right: 588px;
+color: $black;
+
+font-size: 40px;
+
+}
+////////////////////////////////////////////////////////////////////////////////ACA TERMINA LO DE IMGS2 DE LA PAGINA PRINCIPAL
+
+.especifico{//ESTO ES PARA LA IMAGEN DE OTRO EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
+position: absolute;
+top: 943px;
+right: 641px;
+    width: 38%;
+    height: 44%;
+    background-attachment: fixed;
+}
+.text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
+//background-size: 200%;
+    position: absolute;
+    
+//top: 0px;
+//right: 0px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;   
+padding: 0 1rem;
+font-size: 19px;    
+margin: 31px 114px 64px 778px;
+color: $white;
+
+
+}/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.cuadro{// ESTE EL CUADRO DE EL MEDIO COLOR QUE ESTA DEAJO DE LOS EENTOS
+    
+    position: absolute;
+    background:rgba(#9370DB, 0.7) ;
+width: 105%;
+height: 58%;
+background-attachment: fixed;
+
+margin: -33px 114px 64px 0px;
+
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+    width: 90%;
+    height: 100%;
+    //background: -webkit-linear-gradient(180deg, $morado,$pink);
+   padding: 0;
+   margin: 0;
+
+    background-color:$p;
+  
+}
+//////////////////////////////////////////////////////////////
+
+.form{//ESTO ES PARA EL FORMULARIO  EN CONJUNTO principal
+    position: absolute;
+    top: -100px;
+    right: 231px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+     background-attachment: fixed;
+    color:$white;
+    padding: 5px;
+   
+   
+
+} 
+.form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
+    
+    position: absolute;
+    top: -37px;
+    right: 219px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
+    background-attachment: fixed;
+}
+
+.form-Resumen {//Esto es para el formulario de resumen
+    position: absolute;
+    top: -32px;
+    right: 209px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
+}
+.form-Confirmar {
+    position: absolute;
+    top: -140px;
+    right: 231px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    max-width: 800px;
+    margin: 22% auto;
+    color: #FFFF;
+    padding: 5px;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.input-group .btn-Registro {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-Registro2-primary {
+    color: #fff;
+    background-color:$p;
+    border-color:$p;
+}
+.btn-Registro2 {//ESTO ES PARA EL BOTON DE ACEPTAR DE REGISTRO 
+    position: absolute;
+    top: 472px;
+    right: 346px;
+    background: $purple ;
+    width: 9vw;
+    height: 2vw;
+    text-align: center;
+    color: #FAFAFA;
+    font: size 20px;
+    border-radius: 0%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {//ESTO ES EL HOER PARA EL BOTON DE ACEPTAR DE REGISTRO
+    color:$pink;
+}
+
+   .ticket{// ESTO ES PARA EL TITLO DE COMPRA TICKECTS
+    color: $white;
+    position: absolute;
+    top: 122px;
+    right: 483px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+
+   }
+
+   .input-group{
+
+    color: $text;
+   }
+   .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+color: $black;
+    width:238px ;
+    height: 30px ;
+    padding: 20px 26px 28px ;
+    margin:79px 21px 23px 1px ;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid $white;
+    border-radius: 8px;
+    //background-color: transparent;
+}
+
+.input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+    color:$white;
+    position: absolute;
+    width:238px ;
+    height: 30px ;
+    top: 290px;
+    right: 268px;
+}
+.nombre-e{//ESTO ES PARA EL TEXTO NOMBRE EENTO
+position: absolute;
+top: 206px;
+left: 375px;
+color: $white;
+font-size: 21px;
+}
+.nombre-f{//ESTO ES PARA EL TEXTO FECHA
+
+    position: absolute;
+    top: 267px;
+    left: 375px;
+    color: $white;
+    font-size: 21px;
+}
+.nombre-Email{//ESTO ES PARA EL TEXTO FECHA
+
+    position: absolute;
+    top: 267px;
+    left: 375px;
+    color: $white;
+    font-size: 21px;
+}
+.nombre-l{
+
+    position: absolute;
+    top: 206px;
+    right: 375px;
+    color: $white;
+    font-size: 21px;
+}
+.nombre-h{
+
+    position: absolute;
+    top: 267px;
+    right: 375px;
+    color: $white;
+    font-size: 21px;
+
+}
+
+//////////////////////////////////////////////////////////////PAGINA PARA EL EENTO PRINCIPAL
+
+.Evento{
+
+    width: 90%;
+    height: 100%;
+    //background: -webkit-linear-gradient(180deg, $morado,$pink);
+   
+    background-color:$gray;
+  
+
+
+}
+.evento-titulo{//ESTO ES PARA EL TITULO DE NOMBRE DE EENTO
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    padding: 0rem 1rem;
+    font-size: 30px;    
+    position: absolute;
+    right: 565px;
+    top: 81px;
+    color: #413d4b;
+    text-align: center;
+    z-index: 10;
+    overflow: hidden;
+
+}
+.evento-subtitulo{ //ESTO ES PARA EL TEXTO DE CATEGORIA
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    padding: 0rem 1rem;
+    font-size: 27px;    
+    position: absolute;
+    right: 595px;
+    top: 127px;
+    color: #413d4b;
+    text-align: center;
+    z-index: 10;
+
+}
+.evento-lugar-etc{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;   
+    padding: 0rem 1rem;
+    font-size: 40px;    
+    position: absolute;
+    right: 70px;
+    top: 722px;
+    color: $black;
+    text-align: center;
+   
+
+}
+.proximos-Eventos{// ESTO ES PARA EL TEXTO DE FECHA-LUGAR-HORA
+
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    padding: 0rem 1rem;
+    font-size: 39px;
+    position: absolute;
+    right: 454px;
+    top: 848px;
+    color: #413d4b;
+    text-align: center;
+
+}
+ //////////////////////////////////////ESTO ES PARA EL EFECTO HOER
+.content-all{
+
+width: 100%;
+
+}
+.content-img{//ESTO ES PARA LA IMG PRINCIPAL
+
+    width: 103vw;
+    height: 434px;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: -1074px;
+    position: relative;
+    overflow: hidden;
+}
+.content-img img{//ESTO ES PARA DEFINIR LA IMG PRINCIPAL
+
+    width: 100%;
+ height: 433px;
+ transition: all 300ms;
+}
+
+.content-1{//ESTO ES PARA HACER EL EFECTO DE RECORTE LA PRIMERA CAPA
+
+width: 1000px;
+height: 1000px;
+position: absolute;
+top: 0;
+background: rgba($color-m, 0.5);
+transform: rotate(-30deg);
+margin-left: -750px;
+transition: all 300ms;
+}
+.content-2{//ESTO ES PARA HACER EL EFECTO DE RECORTE LA SEGUNDA CAPA
+
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba($color-m, 0.5);
+    transform: rotate(-30deg);
+    margin-left: -800px;
+    transition: all 500ms;
+    }
+    .content-3{//ESTO ES PARA HACER EL EFECTO DE RECORTE LA TERCERA CAPA
+
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        top: 0;
+        background: rgba($color-m, 0.5);
+        transform: rotate(30deg);
+        margin-left: -800px;
+        margin-top: -500px;
+        transition: all 900ms;
+        box-shadow: 0px 1px 20px -5px $morado;
+        }
+        .content-4{//ESTO ES PARA HACER EL EFECTO DE RECORTE LA CUARTA CAPA
+
+            width: 1000px;
+            height: 1000px;
+            position: absolute;
+            top: 0;
+            background: rgba($color-m, 0.3);
+            transform: rotate(30deg);
+            margin-left: -850px;
+            margin-top: -500px;
+            transition: all 700ms;
+            
+            }
+            
+            
+            .content-img:hover .content-1{//ESTO ES PARA HACER EL EFECTO DE TRANSICION DE PARA L IMG
+                width: 222%;
+                transition: all 900ms;
+            }
+            .content-img:hover .content-2{
+                width: 222%;
+                transition: all 300ms;
+            }
+            .content-img:hover .content-3{
+                width: 222%;
+                transition: all 500ms;
+            }
+            .content-img:hover .content-4{//ESTO ES PARA HACER EL EFECTO DE TRANSICION DE PARA L IMG
+                width: 222%;
+                transition: all 700ms;
+            }
+            .content-img:hover img{//ESTO ES PARA LA IMAGEN QUE TENGA UN EFECTO
+
+                transform: scale(1.5);
+                transition: all 300ms;
+                //opacity: 0.8;
+            }
+            ///////////////////////////////////////////////////////////////////////////////////////////////
+           .container-detalle {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
+                position: absolute;
+                top: 481PX;
+                right: -63px;
+                width: 100%;
+                max-width: 1200px;
+                height: 430px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 455px 92px;
+                transform: scale(1);
+                
+            } 
+
+            .container-detalle .card-E {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
+    width: 330px;
+    height: 258px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    margin: 31px;
+    text-align: center;
+    transition: all 0.25ms;
+            }
+            .container-detalle .card-E img {//ESTO ES PARA LAS IMG DE LOS PROXIMOS EENTOS
+    width: 330px;
+    height: 220px;
+            }
+            .container-detalle .card-E:hover{//ESTO ES PARA AGREGAR EL EFECTO HOER A LAS OTRAS IMG2
+
+                transform: translateY(-15px);
+                box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+            
+            }
+            ////////////////////////////////////////////////////////////////////////////////////////////
+
+            .text-detalle{//ESTO ES PARA EL CONTENEDOR QUE CONTIENE LA DESCRIPCION Y TEXTO ennto
+
+          position: absolute;
+          top: 0;
+          right: 90px;
+          width: 400px;
+          padding: 10px;
+          z-index: 10;
+          color: $white;
+          text-align: center;
+          margin-top: 100px;
+
+            }
+
+            .text-detalle h2{//ESTO ES PARA EL TITULO DE DESCRIPCION
+
+          font-size:30px ;
+          opacity: 0;
+          transform: scale(0.2);
+          transition: all 300ms;
+
+            }
+            .text-detalle p{//ESTO ES PARA EL TEXTO DE REDACCIÓN DE LA DESCRIPCIÓN
+
+                font-size: 20px;
+                margin-top: 10px;
+                opacity: 0;
+                transform: scale(1.5);
+                transition: all 300ms;
+            }   
+
+           .content-img:hover h2{//ESTO ES PARA AGREGRALE UN EFECTO HOER AL TITULO DE DESCRIPCIÓN
+               opacity: 1;
+               transition: all 300ms;
+               transform: scale(1);
+
+           }
+           .content-img:hover p{// ESTO ES PARA AGREGARLE UN EFECTO HOER AL TEXTO DE REDACCIÓN DE DESCRIPCIÓN
+            opacity: 1;
+            transition: all 500ms;
+            transform: scale(1);
+
+        }
+
+        .container-cuadro-Evento{
+            position: absolute;
+    width: 105%;
+    height: 12%;
+    background: #FFCC80;
+    margin: 737px 114px 64px -1072px;
+        }
+    .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
+
+        
+       margin-top: 366px;
+       margin-right: -204px;
+       height: 201px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+    }
+
+
+   //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA MOIL
+
+
+    @media screen and (max-width: 480px) {
+///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
+    #menu ul{
+    margin: 5px 655px -18px 11px;
+    padding: 0;
+    }
+    
+        #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+        margin: 3px 859px;
+        margin-left: -920px;
+    float: left;
+    
+    }
+    
+    #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+        font-size: 16px;
+    font-weight: 500;
+    margin: 3px -317px 71px 379px ;
+}
+    
+#menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+    font-size: 16px;
+font-weight: 500;
+margin: 3px -317px 71px 379px ;
+//margin: 3px -351px 67px 407px;
+}
+//////////////////////////////////////////////////////////////////////////////////ACA ABAJO IRIA LO DEL SEGUNDO MENU
+     #menu-Evento a{//ESTO ES PARA LA LETRA DEL MENÚ
+    font-size: 16px;
+    font-weight: 500;
+    margin:0px -483px 66px 590px
+}
+    #menu-Evento ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+    margin: 3px 859px;
+    margin-left: -920px;
+}
+    #menu-Evento ul{
+    margin: 5px 655px -18px 11px;
+    }
+
+///////////////////////////////////////////////////////////////////////////////////777ACA TERMINA LO DEL SEGUNDO MENU
+    
+   
+
+    .form-control {
+        margin-top: -54px;
+        margin-left: 220px;
+        width: 28%;
+    }
+    
+        .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
+    
+           width: 100%;
+        }
+
+        .registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+            width: 70%;
+           
+        }
+
+        .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+            width: 93%;
+            margin: 8px;
+            margin-left: 268px;
+            }
+            
+            .ticket{
+                width: 100%;
+                top: 96px;
+                right: -3px;
+            }
+            .nombre-e{///NOMBRE EENTO
+                width: 100%;
+                    top: 200px;
+                    left: 35px;
+            }
+            .nombre-l {//NOMBRE DE LUGAR
+                top: 200px;
+                right: 81px;
+            }
+
+            .nombre-h {//NOMBRE DE HORA
+                top: 304px;
+                right: 327px;
+            }
+            .nombre-f {
+                top: 307px;
+                left: 277px;
+            }
+            .btn-Registro2 {
+                top: 497px;
+                right: -97px;
+                width: 27vw;
+                height: 7vw;
+            }
+            .btn {
+                top: -55px;
+                right: -36px;
+                width: 68px;
+            }
+
+            .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+               
+                top: 395px;
+                right: -247px;
+               
+            }
+//////////////////////////////////////////////ACA TERMINA PAGINA REGISTRO
+
+
+/////////////////////////////////////////////////7ACA INICIA PAGINA DE CONFIRMAR COMPRA
+.form-Confirmar {
+    top: 104px;
+    right: 252px;
+    width: 100%;
+}
+
+.btn-Registro2 {
+    top: 497px;
+    right: -109px;
+}
+
+////////////////////////////////////////////////////////////////ACA INICIA PAGINA RESUMEN COMPRA
+.form-Resumen {
+    
+    top: 260px;
+    right: 252px;
+}
+.nombre-Email {
+   
+    top: 276px;
+    left: 35px;
+}
+/////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
+
+
+.evento-lugar-etc {
+    font-size: 35px;
+    right: -9px;
+    top: 698px;
+}
+.evento-titulo {  
+    font-size: 30px;
+    right: 109px;
+    top: 77px;
+}
+.evento-subtitulo {
+    font-size: 27px;
+    right: 127px;
+    top: 126px
+}
+.text-detalle {
+    
+    top: -14px;
+    right: 9px;
+    font-weight: 500;
+}
+.container-detalle {
+    top: 468PX;
+    right: -106px;
+}
+.container-cuadro-Evento {
+  
+    margin: 1199px 114px 64px -1072px;
+}
+.proximos-Eventos {
+    right: 32px;
+    top: 876px;
+    font-size: 35px;
+}
+.container .title {
+    top: 367px;
+    right: 139px;
+    font-size: 33px;
+}
+
+//////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+.details {
+    top: 24px;
+    left: 13px;
+}
+
+.logo {
+   
+    margin-left: -399px;
+}
+
+.container {
+    width: 195%;
+    height: 430px;
+     display: block; 
+   
+    margin: 56px -5px;
+}
+.especifico {
+   
+    top: 1772px;
+    /* right: 641px; */
+    width: 74%;
+    height: 29%;
+}
+
+.cuadro {
+   
+    width: 105%;
+    height: 38%;
+    
+    margin: 767px 114px 64px -13px;
+}
+
+.text-E {
+    
+    padding: 0 1rem;
+    font-size: -14.5rem;
+    margin: 170px 89px 49px 243px;
+   
+}
+.container-E {
+    top: 1538px;
+    right: -100px;
+   
+}
+footer {
+    
+    margin-top: 832px;
+}
+
+
+.form-Registro {
+    
+    top: 282px;
+    right: 251px;
+   
+    margin: 23% auto;
+   
+    padding: 5px;
+    
+}
+.text-Proximos-E {
+    margin-top: 1032px;
+    margin-left: -130px;
+}
+
+    }
+
+
+    //&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA TABLET
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+        .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
+    
+            width: 98%;
+            top: 238px;
+            right: 260px;
+            
+         }
+ 
+         .registro{//ESTO ES PARA CAMBIAR EL COLOR DEL BODY A MORADO
+             width: 70%;
+            
+         }
+ 
+         .search-dos input{// ESTO ES PARA LA FORMA DE LOS FORMULARIOS
+            width: 93%;
+    margin: 19px;
+    margin-left: 279px;
+             }
+             
+             .ticket{
+                 width: 100%;
+                 top: 106px;
+                 right: -3px;
+             }
+             .nombre-e{///NOMBRE EENTO
+                font-size: 29px;
+                 width: 100%;
+                 top: 202px;
+                left: 53px;
+                font-weight: 500;
+    
+             }
+             .nombre-l {//NOMBRE DE LUGAR
+                font-size: 29px;
+                 top: 200px;
+                 right: 134px;
+                 font-weight: 500;
+             }
+ 
+             .nombre-h {//NOMBRE DE HORA
+                font-size: 29px;
+                 top: 304px;
+                 right: 140px;
+                 font-weight: 500;
+             }
+             .nombre-f {//NOMBRE PARA FECHA
+                font-size: 29px;
+                top: 307px;
+                left: 133px;
+                font-weight: 500;
+             }
+            
+ 
+             .input-field-dos{ //ESTO ES PARA EL CUADRO DE COSTO TOTAL
+                
+                top: 529px;
+                right: -246px;
+            
+                
+             }
+ //////////////////////////////////////////////ACA TERMINA PAGINA REGISTRO
+ 
+ 
+ /////////////////////////////////////////////////7ACA INICIA PAGINA DE CONFIRMAR COMPRA
+ .form-Confirmar {
+     top: 46px;
+     right: 252px;
+     width: 100%;
+ }
+ 
+ .btn-Registro2 {
+    width: 164px;
+    top: 658px;
+    right: 46px;
+    height: 50px;
+    font-size: 31px;
+
+ }
+ 
+ ////////////////////////////////////////////////////////////////ACA INICIA PAGINA RESUMEN COMPRA
+ .form-Resumen {
+     
+     top: 182px;
+     right: 252px;
+ }
+ .nombre-Email {
+    
+    top: 284px;
+    left: 59px;
+    font-size: 29px;
+    font-weight: 500;
+ }
+ /////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
+ 
+ 
+ .evento-lugar-etc {
+    font-size: 38px;
+    right: -1px;
+    top: 691px;
+ }
+ 
+ .text-detalle {
+     
+     top: -14px;
+     right: 9px;
+     font-weight: 500;
+ }
+ .container-detalle {
+     top: 448PX;
+     right: -106px;
+ }
+ .container-cuadro-Evento {
+   
+     margin: 1243px 114px 64px -1072px;
+ }
+ .proximos-Eventos {
+    right: 197px;
+    top: 834px;
+    font-size: 38px;
+ }
+ 
+ .evento-titulo {
+    right: 268px;
+    top: 87px;
+ }
+ .evento-subtitulo {
+    right: 294px;
+    top: 128px;
+    font-size: 30px;
+ }
+
+ 
+ //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+ 
+ .details {
+    
+    font-weight: 500;
+    top: -18px;
+    right: -19PX;
+    
+}
+ #menu {
+     margin-left: -12px;
+ }
+ .logo {
+    
+    margin-left: -547px;
+}
+ 
+ 
+ .container {
+    width: 195%;
+    height: 430px;
+    display: block;
+    margin: 113px 171px;
+ }
+
+ 
+ .especifico {
+    top: 1878px;
+    width: 67%;
+    right: 254px;
+    height: 29%;
+}
+ 
+ .cuadro {
+     position: absolute;
+     background: rgba(147,112,219,0.7);
+     width: 105%;
+     height: 38%;
+     background-attachment: fixed;
+     margin: 767px 114px 64px -13px;
+ }
+ .container-E {
+     top: 1869px;
+     right: -92px;
+     
+ }
+ footer {
+     
+    margin-top: 905px;
+ }
+ 
+ 
+ .text-Proximos-E {
+   font-size: 38px;
+    margin-right: -69px;
+     margin-top: 1269px;
+ }
+ .container .title {
+    position: absolute;
+    top: 387px;
+    right: 300px;  
+ } 
+
+ .text-E {
+    
+    padding: 0 -16rem;
+    font-size: 19px;
+    margin: 322px 83px 43px 537px;
+ }
+
+ 
+    }//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ACA TERMINA LO DE MEDIA PARA TABLET 
