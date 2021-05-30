@@ -46,13 +46,13 @@
                 <div class="form-Resumen">
                     <form class="input-group">
                         <div class=" search-dos">
-                            <input type="" class="input-field" placeholder="   Cantidad Personas"  >  
-                            <input type="" class="input-field" placeholder="   Cantidad Adultos" >  
-                           <input type="" class="input-field" placeholder="    Cantidad Niños" > 
-                           <input type="" class="input-field" placeholder="    Costo Persona" > 
-                           <input type="" class="input-field" placeholder="    Cantidad Adultos" > 
-                           <input type="" class="input-field" placeholder="    Cantidad Niños" > 
-                           <input  type="" class="input-field-dos" placeholder="    Costo Total" > 
+                            <input type="" class="input-field" placeholder="   Cantidad Personas" aria-label="Cantidad de personas" >  
+                            <input type="" class="input-field" placeholder="   Cantidad Adultos" aria-label="Cantidad de adultos">  
+                           <input type="" class="input-field" placeholder="    Cantidad Niños" aria-label="Cantidad de niños" > 
+                           <input type="" class="input-field" placeholder="    Costo Persona" aria-label="Costo persona"  > 
+                           <input type="" class="input-field" placeholder="    Cantidad Adultos" aria-label="Costo por adulto"> 
+                           <input type="" class="input-field" placeholder="    Cantidad Niños" aria-label="Costo por niños"> 
+                           <input  type="" class="input-field-dos" placeholder="    Costo Total" aria-label="Costo total"> 
                       
                        
                             </div>

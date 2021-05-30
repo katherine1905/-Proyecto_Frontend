@@ -21,6 +21,54 @@ $morado:#9932cc;
 $text:#3998db;
 $contact:#87CEEB;
 
+/////////////////////////////////////////////////////////////////////////////////////////77ACA INICIA EL MENU RESPONSIE
+#menu-registro{
+
+background: $pink;
+height: 80px;
+width: 111%;
+
+}
+
+label.logo{
+color: $white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+right: 0px;
+
+}
+
+#menu-registro ul{
+
+float: right;
+margin-right: 20px;
+
+}
+
+#menu-registro ul li{
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 1px 312px;
+    margin-left: -267px;
+      justify-content: center;
+}
+
+#menu-registro ul li a{
+
+    color: $white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA EL MENU RESPONSIE
 .logo{//ESTO ES PARA EL LOGO DE SUPERTICKETS
 
     margin-top: -130px;
@@ -152,7 +200,8 @@ margin: auto;
     width: 100%;
     max-width: 500px;
     position: relative;
-    top: -10px;
+    top: 47px;
+    left: -68px;
     color: $white;
 }
 .details h1{
@@ -234,9 +283,9 @@ body{
 
 .form-control {
     margin-top: -63px;
-    margin-left: 455px;
+    margin-left: 990px;
     display: block;
-    width: 27%;
+    width: 16%;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 40;
@@ -250,8 +299,10 @@ body{
     appearance: none;
     border-radius: .25rem;
 }
-////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////ACA EMPIEZA EL MENU
 #menu ul{
+
+    float: right;
 list-style: none;
 margin: 0;
 padding: 0;
@@ -265,7 +316,8 @@ padding: 0;
 }
 
 #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
-
+    margin: 3px 859px;
+    margin-left: -872px;
 float: left;
 
 }
@@ -297,7 +349,16 @@ height: -55px;
 
 }
 
+.checkbtn{
 
+font-size: 30px;
+color: $white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////ACA EMPIEZA LO DE BUSCAR
 .search{//ESTO ES PARA LA BARRA DE BUSCAR 
 
     //position: absolute; 
@@ -321,7 +382,7 @@ height: -55px;
 .btn{//ESTO ES PARA EL ICONO DE BUSCAR LA PRINCIPAL
     position: absolute;
     top: -55px;
-    right: -53px;
+    right: -327px;
     background:$morado ;
     width: 91px;
     height: 35px;
@@ -335,7 +396,7 @@ height: -55px;
 .btn-E {//ESTA ES PARA EL ICONO DE BUSCAR DE EENTO
     position: absolute;
     top: -55px;
-    right: 59px;
+    right: -230px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -348,7 +409,7 @@ height: -55px;
 .btn-Registro {//ESTA ES PARA EL ICONO DE BUSCAR DE REGISTRO
     position: absolute;
     top: -55px;
-    right: -58px;
+    right: -332px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -365,7 +426,7 @@ a {
 .btn-Confirmar {
     position: absolute;
     top: -55px;
-    right: -58px;
+    right: -335px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -378,7 +439,7 @@ a {
 .btn-Resumen {
     position: absolute;
     top: -55px;
-    right: -59px;
+    right: -336px;
     background: #9932cc;
     width: 91px;
     height: 35px;
@@ -388,16 +449,8 @@ a {
     border-radius: 0%;
     cursor: pointer;
 }
-/////////////////////////////////////////////////////////////////////////////////////////////
-/*.header{ //ESTO ES PARA LA FOTO DEL HEADER
-position: absolute;
-    width: 108%;
-    height: 283px;
-    margin-left: -625px;
-    margin-top: -16px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    }*/
+/////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA LO DEL MENU
+
 .container{//ESTO ES PARA EL CONTAINER DE LAS IMAGENES
 
 width: 100%;

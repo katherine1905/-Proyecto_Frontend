@@ -47,13 +47,13 @@
                     <form class="input-group">
                         <div class=" search-dos">
                         
-                            <input type="" class="input-field" placeholder="   Nombre Completo"  required>  
-                            <input type="" class="input-field" placeholder="   E-mail" required>  
-                           <input type="" class="input-field" placeholder="    Cédula" required> 
-                           <input type="" class="input-field" placeholder="    Número de tarjeta" > 
-                           <input type="" class="input-field" placeholder="    Código de seguridad" > 
-                           <input type="" class="input-field" placeholder="    Contraseña" > 
-                           <input  type="" class="input-field-dos" placeholder="  Fecha de vencimiento" > 
+                            <input type="" class="input-field" placeholder="   Nombre Completo"  required aria-label="Cantidad de personas">   
+                            <input type="" class="input-field" placeholder="   E-mail" required  aria-label="Cantidad de personas">  
+                           <input type="" class="input-field" placeholder="    Cédula" required  aria-label="Cantidad de personas"> 
+                           <input type="" class="input-field" placeholder="    Número de tarjeta" aria-label="Cantidad de personas"> 
+                           <input type="" class="input-field" placeholder="    Código de seguridad" aria-label="Cantidad de personas"> 
+                           <input type="" class="input-field" placeholder="    Contraseña"  aria-label="Cantidad de personas"> 
+                           <input  type="" class="input-field-dos" placeholder="  Fecha de vencimiento" aria-label="Cantidad de personas"> 
                        
                             </div>
                             <a href="Resumen.php" class="btn-Registro2 btn- dafault"> Aceptar</a>

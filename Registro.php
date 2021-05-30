@@ -74,9 +74,9 @@
                                          <input type="" class="input-field" placeholder="    Cantidad Niños" aria-label="Costo por niños"> 
                                         
                                          
-                                              <input  type="" class="input-field-dos" placeholder="    Costo Total" aria-label="Costo total > 
+                                              <input  type="" class="input-field-dos" placeholder="    Costo Total" aria-label="Costo total"> 
                                                
-                       <a href="Confirmar.php" class="btn-Registro2 btn-Registro2- dafault"> Aceptar</a>
+                       <a href="Confirmar.php" class="btn-Registro2 btn-Registro2- dafault" aria-label="aceptar"> Aceptar</a>
                       
                        
                             </div>
