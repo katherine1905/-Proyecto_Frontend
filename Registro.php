@@ -21,11 +21,7 @@
 <body class="registro">
 
 <nav id="menu"> 
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
 
-    </label>
     <ul> 
       <li> <a  href="#">Registro</a></li>
       

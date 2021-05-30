@@ -22,50 +22,6 @@ $text:#3998db;
 $contact:#87CEEB;
 
 /////////////////////////////////////////////////////////////////////////////////////////77ACA INICIA EL MENU RESPONSIE
-#menu-registro{
-
-background: $pink;
-height: 80px;
-width: 111%;
-
-}
-
-label.logo{
-color: $white;
-font-size: 35px;
-line-height: 80px;
-padding: 0 100px;
-font-weight: bold;
-right: 0px;
-
-}
-
-#menu-registro ul{
-
-float: right;
-margin-right: 20px;
-
-}
-
-#menu-registro ul li{
-
-    display: inline-block;
-    line-height: 80px;
-    margin: 1px 312px;
-    margin-left: -267px;
-      justify-content: center;
-}
-
-#menu-registro ul li a{
-
-    color: $white;
-    text-decoration: none;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-
-}
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////ACA TERMINA EL MENU RESPONSIE
@@ -323,6 +279,7 @@ float: left;
 }
 
 #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+    font-size: 16px;
 font-weight: 500;
 color: $purple;
 text-decoration: none;
@@ -349,14 +306,7 @@ height: -55px;
 
 }
 
-.checkbtn{
 
-font-size: 30px;
-color: $white;
-float: right;
-line-height: 80px;
-margin-right: 40px;
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////ACA EMPIEZA LO DE BUSCAR
 .search{//ESTO ES PARA LA BARRA DE BUSCAR 
@@ -1063,9 +1013,57 @@ transition: all 300ms;
    //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ACA EMPIEZA PARA MOIL
 
 
-    @media screen and(min-width: 414px) and (max-width: 736px) {
+    @media screen and (max-width: 480px) {
 ///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
+#menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
+    background: $pink;
+    width: 100%;
+    
+    }
 
+    #menu ul{
+
+        float: right;
+    list-style: none;
+    float: right;
+    list-style: none;
+    margin: 5px 655px -18px 11px;
+    padding: 0;
+    }
+    
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {//ESTO ES PARA LO TITULO DEL NOMBRE DEL EENTO
+        margin-top: 10px;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    
+    #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
+        margin: 3px 859px;
+        margin-left: -920px;
+    float: left;
+    
+    }
+    
+    #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
+        font-size: 16px;
+    font-weight: 500;
+    color: $purple;
+    text-decoration: none;
+    display: block;
+    padding: 17px 9px;
+    margin: 1px -417px 71px 478px ;
+    
+    }
+    
+    #menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
+    background: $pink;
+    width: 1427px;
+    height: 70px;
+    margin-left: -12px;
+    
+    }
+    
         .form-Registro {// ESTO ESS PARA MODIFICAR EL FORMULARIO DE REGISTRO
     
            width: 100%;
@@ -1183,12 +1181,7 @@ transition: all 300ms;
 .details {
     top: -39px;
 }
-#menu {
-   
-    width: 427px;
-    
-    margin-left: -12px;
-}
+
 .logo {
    
     margin-left: -399px;
