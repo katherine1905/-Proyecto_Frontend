@@ -1,7 +1,8 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html  lang="en">
 <head>
+
   <meta
   name="description"           
   content="SuperTickets'It is a page that has the function that users can 
@@ -17,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
+   
 </head>
 <body>
  

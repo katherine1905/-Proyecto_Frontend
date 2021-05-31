@@ -24,8 +24,8 @@
 
     <ul> 
       <li> <a  href="#">Registro</a></li>
-      <li> <a href="#">Contacto</a></li>
-      <li> <a href="http://supertickets.test/"> Principal</a></li>
+      <li> <a href="http://supertickets.test/">Principal</a></li>
+      <li> <a href="#"> Contacto</a></li>
       
      
 

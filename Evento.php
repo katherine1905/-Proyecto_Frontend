@@ -25,9 +25,9 @@
     
     <ul > 
     
-      <li> <a  href="http://supertickets.test/">Principal</a></li>
+      <li> <a  href="#">Evento</a></li>
       
-      <li> <a  href="#">Contacto</a></li>
+      <li> <a  href="http://supertickets.test/">Principal</a></li>
     
       <li> <a  href="Registro.php">Registrarse</a></li>
 

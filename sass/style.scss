@@ -83,6 +83,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin: 2rem 0 3rem -44px;
+
 }
 
 .socials li{
@@ -285,7 +286,7 @@ float: left;
 
 #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
     font-size: 16px;
-font-weight: 500;
+font-weight: 700;
 color: $purple;
 text-decoration: none;
 display: block;
@@ -329,7 +330,7 @@ float: left;
 
 #menu-Evento a{//ESTO ES PARA LA LETRA DEL MENÚ
     font-size: 16px;
-font-weight: 500;
+font-weight: 700;
 color: $purple;
 text-decoration: none;
 display: block;
@@ -891,11 +892,11 @@ width: 100%;
 }
 .content-img{//ESTO ES PARA LA IMG PRINCIPAL
 
-    width: 103vw;
+    width: 95vw;
     height: 434px;
     margin: auto;
     margin-top: 150px;
-    margin-left: -1074px;
+    margin-left: -1048px;
     position: relative;
     overflow: hidden;
 }
@@ -1100,7 +1101,7 @@ transition: all 300ms;
     
     #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
         font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 3px -317px 71px 379px ;
 }
     
@@ -1113,7 +1114,7 @@ margin: 3px -317px 71px 379px ;
 //////////////////////////////////////////////////////////////////////////////////ACA ABAJO IRIA LO DEL SEGUNDO MENU
      #menu-Evento a{//ESTO ES PARA LA LETRA DEL MENÚ
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     margin:0px -483px 66px 590px
 }
     #menu-Evento ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
@@ -1282,7 +1283,8 @@ margin: 3px -317px 71px 379px ;
 }
 
 .logo {
-   
+   width: 0;
+   height: 0;
     margin-top: -130px;
     margin-left: 0px;
     opacity: 0;
@@ -1509,7 +1511,7 @@ footer {
     
     #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
         font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 3px -317px 71px 379px ;
 }
     
@@ -1521,6 +1523,7 @@ footer {
 
  /////////////////////////////////////////////////////////////////////////
  #menu-Evento a {
+    font-weight: 700;
     font-size: 23px;
     margin: 3px -156px 72px 281px;
 }
@@ -1570,14 +1573,14 @@ footer {
     top: 1835px;
     width: 58%;
     right: 298px;
-    height: 53%;
+    height: 30%;
 }
  
  .cuadro {
      position: absolute;
      background: rgba(147,112,219,0.7);
      width: 105%;
-     height: 67%;
+     height: 42%;
      background-attachment: fixed;
      margin: 767px 114px 64px -13px;
  }
