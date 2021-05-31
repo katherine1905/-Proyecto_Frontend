@@ -48,14 +48,14 @@
 
 <div class="container-detalles">
 <div class="details">
-  <h1>Header</h1>
+  <h1>Acerca de</h1>
   <p>
-    Esta pagina te ayudara a encontrar los mejores eentos para disfrutar en familia 
-    amigos, o con la persona que tu quieras, naega con nosotros y descubre los mejores conciertos
-    Festivales, obras teatro que estaremos brindadno a traes de nuestra pagina entra ya y no 
+    Esta página te ayudará a encontrar los mejores eventos para disfrutar en familia 
+    amigos, o con la persona que tú quieras, navega con nosotros y descubre los mejores conciertos
+    festivales, obras teatro, que estaremos ofreciendo a través de nuestra página navega ya y no 
     te lo pierdas por nada del mundo Supertickest.com
   </p>
-  <button> Visítanos </button>
+  <button> Conoce más </button>
 </div>
 
 
@@ -100,10 +100,10 @@
 <div class="cuadro"></div>
 
   <img  class="especifico" src="./imgs/teatro3.jpg" alt="especifico">
-  <p class="text-E">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-    sed quia nonnumquam eiusmodi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-     nisi ut aliquid ex ea commodi consequatur? 
+  <p class="text-E">Fuenteovejuna » es una de las obras más populares y representadas de Lope de Vega, 
+  lo que equivale a decir que es una de las más importantes de nuestro teatro clásico. En ella se plasma la historia, 
+  tan antigua como el mundo,
+   en la que los humildes luchan contra los todopoderosos tiranos que pretenden ser dueños de todo y de todos;…
     
     </p>
   

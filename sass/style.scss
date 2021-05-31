@@ -167,7 +167,8 @@ margin: auto;
     color: $white;
 }
 .details h1{
-    font-size: 30px;
+    font-size: 27px;
+    font-weight: 600;
 }
 .details button{
 padding: 10px 20px;
@@ -561,7 +562,7 @@ color:#9370DB;
 .container .title{//ESTO ES PARA EL TITLO DE EENTO
     position: absolute;
     top: 376px;
-    right: 588px;
+    right: 560px;
 color: $black;
 
 font-size: 40px;
@@ -571,7 +572,7 @@ font-size: 40px;
 
 .especifico{//ESTO ES PARA LA IMAGEN DE OTRO EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
 position: absolute;
-top: 943px;
+top: 958px;
 right: 641px;
     width: 38%;
     height: 44%;
@@ -600,7 +601,7 @@ width: 105%;
 height: 58%;
 background-attachment: fixed;
 
-margin: -33px 114px 64px 0px;
+margin: -33px 114px 64px -14px;
 
 }
 
@@ -759,6 +760,7 @@ top: 206px;
 left: 375px;
 color: $white;
 font-size: 21px;
+font-weight: 700;
 }
 .nombre-f{//ESTO ES PARA EL TEXTO FECHA
 
@@ -767,6 +769,7 @@ font-size: 21px;
     left: 375px;
     color: $white;
     font-size: 21px;
+    font-weight: 700;
 }
 .nombre-Email{//ESTO ES PARA EL TEXTO FECHA
 
@@ -775,6 +778,7 @@ font-size: 21px;
     left: 375px;
     color: $white;
     font-size: 21px;
+    font-weight: 700;
 }
 .nombre-l{
 
@@ -783,6 +787,7 @@ font-size: 21px;
     right: 375px;
     color: $white;
     font-size: 21px;
+    font-weight: 700;
 }
 .nombre-h{
 
@@ -791,6 +796,7 @@ font-size: 21px;
     right: 375px;
     color: $white;
     font-size: 21px;
+    font-weight: 700;
 
 }
 
