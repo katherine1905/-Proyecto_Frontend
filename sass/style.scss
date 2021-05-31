@@ -39,11 +39,10 @@ $contact:#87CEEB;
 footer{ //ESTO ES PARA LA PARTE DE FOOTER DE ABAJO
 position: absolute;
 margin-top: 265px;
-
 left: 0;
 right: 0;
     background:rgba(#9370DB, 0.7) ;
-    width: 106%;
+    width: 100%;
     height: 14vw;
     padding-top: -12px;
 color: $white;
@@ -71,7 +70,7 @@ font-family: 'Roboto', sans-serif;
 .footer-content p{
 max-width: 500px;
 margin-top: 51px;
-margin-left: -30px;
+margin-left: 105px;
 //margin: 10px auto;
 line-height: 28px;
 font-size: 15px;
@@ -82,7 +81,7 @@ list-style: none;
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 2rem 0 3rem -44px;
+margin: 2rem 0 3rem 66px;
 
 }
 
@@ -109,6 +108,7 @@ padding: 20px 0;
 text-align: center;
 height: 4vw;
 margin-top: -14px;
+padding: 32px 0px 0px 123px;
 }
 .footer-bottom p{//ESTO ES PARA LO DEL COPY
 font-size: 12px;
@@ -131,7 +131,7 @@ font-weight: 500;
 .container-header{
     margin-top: -50px;
     margin-left: -12px;
-width: 122%;
+width: 114.6%;
 height: 300px;
 position: relative;
 background-image: url(../imgs/header.jpg);
@@ -163,7 +163,7 @@ margin: auto;
     max-width: 500px;
     position: relative;
     top: 47px;
-    left: -68px;
+    left: -27px;
     color: $white;
 }
 .details h1{
@@ -298,7 +298,7 @@ margin: 1px -417px 71px 478px ;
 
 #menu{// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
 background: $pink;
-width: 1427px;
+width: 1349px;
 height: 70px;
 margin-left: -12px;
 
@@ -336,13 +336,13 @@ color: $purple;
 text-decoration: none;
 display: block;
 padding: 17px 9px;
-margin: 8px -401px 72px 542px;
+margin: 8px -528px 72px 717px;
 
 }
 
 #menu-Evento {// ESTO ES PARA EL TAMAÑO DEL COLOR DE FONDO DEL MENÚ
 background: $pink;
-width: 1427px;
+width: 1360px;
 height: 70px;
 margin-left: -12px;
 
@@ -384,7 +384,7 @@ height: -55px;
 .btn{//ESTO ES PARA EL ICONO DE BUSCAR LA PRINCIPAL
     position: absolute;
     top: -55px;
-    right: -204px;
+    right: -288px;
     background:$morado ;
     width: 91px;
     height: 35px;
@@ -468,14 +468,13 @@ margin: 72px 110px;
 .container-E{//ESTO ES PARA EL CONTAINER DE LAS OTRAS IMGS 2
     position: absolute;
     top: 913PX;
-    right: -41px;
     width: 100%;
 max-width:1200px ;
 height: 430px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin: 455px  92px;
+margin: 455px  120px;
 background-size: 200%;
 
 }
@@ -575,7 +574,7 @@ position: absolute;
 top: 958px;
 right: 641px;
     width: 38%;
-    height: 44%;
+    height: 43%;
     background-attachment: fixed;
 }
 .text-E{//ESTO ES PARA EL TEXTO QUE ESTA EN LA IMAGEN DEL EENTO ESPECIFICO DE LA PAGINA PRINCIPAL
@@ -597,11 +596,11 @@ color: $white;
     
     position: absolute;
     background:rgba(#9370DB, 0.7) ;
-width: 105%;
-height: 58%;
+width: 100%;
+height: 56%;
 background-attachment: fixed;
 
-margin: -33px 114px 64px -14px;
+margin: -33px 0px 64px -14px;
 
 }
 
@@ -902,7 +901,7 @@ width: 100%;
     height: 434px;
     margin: auto;
     margin-top: 150px;
-    margin-left: -1048px;
+    margin-left: -1040px;
     position: relative;
     overflow: hidden;
 }
@@ -1069,22 +1068,20 @@ transition: all 300ms;
 
         .container-cuadro-Evento{
             position: absolute;
-    width: 105%;
-    height: 12%;
-    background: #FFCC80;
-    margin: 807px 114px 64px -1072px;
+            width: 179%;
+            height: 12%;
+            background: #FFCC80;
+            margin: 845px 114px 64px -1072px;
         }
     .text-Proximos-E{///ESTO ES PARA EL TITULO DE PROXIMS EENTOS EN LA PAGINA PRINCIPAL
-
-        
        margin-top: 366px;
-       margin-right: -204px;
        height: 201px;
        display: flex;
        align-items: center;
        justify-content: center;
        flex-direction: column;
        text-align: center;
+       padding: 0px 0px 0px 268px ;
     }
 
 
@@ -1094,41 +1091,53 @@ transition: all 300ms;
     @media screen and(max-width: 414px) and(max-width: 736px) {
 ///////////////////////////////////////////////////ESTA ES PARA PAGINA REGISTRO
     #menu ul{
-    margin: 5px 655px -18px 11px;
-    padding: 0;
+        margin: 13px 194px -14px 0px;
+        padding: 0;
+    }
+    #menu {
+        width: 439px;
+        height: 70px;
+        
     }
     
+    
         #menu ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
-        margin: 3px 859px;
-        margin-left: -920px;
-    float: left;
+            margin: 0px 0px;
+            margin-left: 0px;
     
     }
     
     #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
         font-size: 16px;
-    font-weight: 700;
-    margin: 3px -317px 71px 379px ;
+        font-weight: 700;
+        margin: 0;
+        padding: 17px 16px 0 0;
+      
 }
     
-#menu a{//ESTO ES PARA LA LETRA DEL MENÚ
-    font-size: 16px;
-font-weight: 500;
-margin: 3px -317px 71px 379px ;
-//margin: 3px -351px 67px 407px;
-}
+
 //////////////////////////////////////////////////////////////////////////////////ACA ABAJO IRIA LO DEL SEGUNDO MENU
+
+#menu-Evento{
+
+    width: 427px;
+        height: 70px;
+        margin-left: 0;
+        
+}
      #menu-Evento a{//ESTO ES PARA LA LETRA DEL MENÚ
     font-size: 16px;
     font-weight: 700;
-    margin:0px -483px 66px 590px
+    margin: 0;
+    padding: 17px 61px 0 0;
 }
     #menu-Evento ul li{//ESTO ES PARA QUE EL MENÚ ESTÉ HORIZONTAL
-    margin: 3px 859px;
-    margin-left: -920px;
+    margin: 0px 0px;
+    margin-left: 0px;
 }
     #menu-Evento ul{
-    margin: 5px 655px -18px 11px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
     }
 
 ///////////////////////////////////////////////////////////////////////////////////777ACA TERMINA LO DEL SEGUNDO MENU
@@ -1163,7 +1172,7 @@ margin: 3px -317px 71px 379px ;
                 right: -3px;
             }
             .nombre-e{///NOMBRE EENTO
-                width: 100%;
+                width: 70%;
                     top: 200px;
                     left: 35px;
             }
@@ -1225,7 +1234,13 @@ margin: 3px -317px 71px 379px ;
     left: 35px;
 }
 /////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
-
+.search{
+    padding: 0px 0px 0px 72px;
+    
+}
+.content-img {
+   margin-left: 0px;
+}
 
 .evento-lugar-etc {
     font-size: 30px;
@@ -1271,6 +1286,10 @@ margin: 3px -317px 71px 379px ;
     top: 468PX;
     right: -106px;
 }
+.container-detalles {
+    width: 100%;
+
+}
 .container-cuadro-Evento {
   
     margin: 1199px 114px 64px -1072px;
@@ -1283,9 +1302,16 @@ margin: 3px -317px 71px 379px ;
 }
 
 //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+
+.container-header {
+    margin-top: -50px;
+    margin-left: -12px;
+    width: 127%;
+}
 .details {
-    top: 24px;
-    left: 13px;
+    top: -46px;
+    left: -30px;
+    padding: 12vw;
 }
 
 .logo {
@@ -1297,7 +1323,7 @@ margin: 3px -317px 71px 379px ;
 }
 
 .container {
-    width: 195%;
+    width: 100%;
     height: 430px;
      display: block; 
    
@@ -1313,10 +1339,10 @@ margin: 3px -317px 71px 379px ;
 
 .cuadro {
    
-    width: 105%;
+    width: 100%;
     height: 37%;
     
-    margin: 767px 114px 64px -13px;
+    margin: 767px 0px 0px 0px;
 }
 
 .text-E {
@@ -1330,7 +1356,8 @@ margin: 3px -317px 71px 379px ;
 }
 .container-E {
     top: 1538px;
-    right: -100px;
+    right: 0px;
+    margin: 455px  0px 0px 0px;
    
 }
 footer {
@@ -1352,7 +1379,8 @@ footer {
 }
 .text-Proximos-E {
     margin-top: 1032px;
-    margin-left: -130px;
+    margin-left: 72px;
+    margin-right: 0px;
 }
 
     }
@@ -1456,7 +1484,13 @@ footer {
  }
  /////////////////////////////////////////////////////////////////INICIA PAGINA EENTO
  
- 
+ .search{
+    padding: 15px 0px 0px 69px;
+    
+}
+.content-img {
+   margin-left: 0px;
+}
  .evento-lugar-etc {
     font-size: 38px;
     right: -1px;
@@ -1472,6 +1506,10 @@ footer {
  .container-detalle {
      top: 577px;
      right: -106px;
+ }
+ .container.img{
+    margin-left: 0;
+
  }
  .container-cuadro-Evento {
    
@@ -1503,8 +1541,12 @@ footer {
     top: 883px
  }
  //////////////////////////////////////ACA INICIA PAGINA PRINCIPAL
+ #menu{
+
+    width: 806px;
+ }
  #menu ul{
-    margin: 5px 655px -18px 11px;
+    margin: 0px 16px 0px 10px;
     padding: 0;
     }
     
@@ -1518,7 +1560,7 @@ footer {
     #menu a{//ESTO ES PARA LA LETRA DEL MENÚ
         font-size: 16px;
     font-weight: 700;
-    margin: 3px -317px 71px 379px ;
+    margin: 8px -312px 71px 379px ;
 }
     
 #menu ul li {
@@ -1528,14 +1570,19 @@ footer {
 }
 
  /////////////////////////////////////////////////////////////////////////
+ #menu-Evento{
+
+    width: 800px;
+}
+
  #menu-Evento a {
     font-weight: 700;
     font-size: 23px;
-    margin: 3px -156px 72px 281px;
+    margin: 6px 83px 0px 0px;
 }
 #menu-Evento ul li {
-    margin: 3px 859px;
-    margin-left: -862px;
+    margin: 3px 6px;
+    margin-left: 0px;
     float: left;
    
 }
@@ -1556,7 +1603,7 @@ footer {
 
  .details {
     font-weight: 500;
-    top: 30px;
+    top: 21px;
     left: 20px;
     
 }
@@ -1568,7 +1615,7 @@ footer {
  
  
  .container {
-    width: 195%;
+    width: 60%;
     height: 430px;
     display: block;
     margin: 113px 171px;

@@ -25,7 +25,7 @@
         <ul> 
           <li> <a href="#">Confirmar</a></li>
           <li> <a href="http://supertickets.test/"> Principal</a></li>
-          <li> <a href="#"> Contacto</a></li>
+          <li> <a href="#"> Principal</a></li>
           
         </ul>
         
@@ -48,7 +48,7 @@
                            <input  type="" class="input-field-dos" placeholder="  Fecha de vencimiento" aria-label="Cantidad de personas"> 
                        
                             </div>
-                            <a href="Resumen.html" class="btn-Registro2 btn- dafault"> Aceptar</a>
+                            <a href="Resumen.php" class="btn-Registro2 btn- dafault"> Aceptar</a>
                        
                         </form>
                 

@@ -73,7 +73,7 @@
     <p>Disfruta de la mejor música en el Festival 
       de la canción con los mejores Djs y cantantes en vivo.</p>
       
-      <a href="Evento.html">Ingresar</a>
+      <a href="Evento.php">Ingresar</a>
 
   </div>
 
@@ -82,7 +82,7 @@
     <h4>Cantante</h4>
     <p>Disfruta del mejor concierto de la Cantante Lizzo 
       en una de sus mayores giras por Latinoámerica.</p>
-      <a href="Evento.html">Ingresar</a>
+      <a href="Evento.php">Ingresar</a>
 
   </div>
 
@@ -91,7 +91,7 @@
     <h4>Teatro</h4>
     <p>Disfruta de la mejor función de teatro en vivo 
       en el Melíco Salazar acompañado de grandes actores y actrices .</p>
-      <a href="Evento.html">Ingresar</a>
+      <a href="Evento.php">Ingresar</a>
 
   </div>
 

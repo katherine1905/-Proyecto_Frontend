@@ -64,7 +64,7 @@
                                          
                                               <input  type="" class="input-field-dos" placeholder="    Costo Total" aria-label="Costo total"> 
                                                
-                       <a href="Confirmar.html" class="btn-Registro2 btn-Registro2- dafault" aria-label="aceptar"> Aceptar</a>
+                       <a href="Confirmar.php" class="btn-Registro2 btn-Registro2- dafault" aria-label="aceptar"> Aceptar</a>
                       
                        
                             </div>
