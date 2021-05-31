@@ -36,10 +36,10 @@
         
        
                  <h1 class="ticket">Compra de Tickets</h1>
-                 <p class="nombre-e">Nombre del Evento:  </p>
-                 <p class="nombre-f">Fecha: </p>
-                 <p class="nombre-l">Lugar: </p>
-                 <p class="nombre-h">Hora: </p>
+                 <h2 class="nombre-e">Nombre del Evento:  </h2>
+                 <h2 class="nombre-f">Fecha: </h2>
+                 <h2 class="nombre-l">Lugar: </h2>
+                 <h2 class="nombre-h">Hora: </h2>
                 <div class="form-Registro">
                     <form class="input-group">
                         <div class=" search-dos">

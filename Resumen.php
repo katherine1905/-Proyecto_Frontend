@@ -31,8 +31,8 @@
         </nav>
         
                  <h1 class="ticket">Resumen Registro</h1>
-                 <p class="nombre-e">Nombre Completo:  </p>
-                 <p class="nombre-Email">E-mail: </p>
+                 <h2 class="nombre-e">Nombre Completo:  </h2>
+                 <h2 class="nombre-Email">E-mail: </h2>
                 <div class="form-Resumen">
                     <form class="input-group">
                         <div class=" search-dos">
